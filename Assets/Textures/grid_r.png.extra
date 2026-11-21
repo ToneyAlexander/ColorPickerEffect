@@ -1,0 +1,31 @@
+[
+  {
+    "guid": {
+      "a": "0325c1f0-6e3e-4939-2d50-d920bae240c2",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "grid_r",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 0,
+    "filterMag": 0,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "references": []
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "guid": {
+      "a": "8dce63be-387f-5ef6-268f-07c50f05e5ee",
+      "b": ""
+    },
+    "extraType": "ResItemSegmentationTexture",
+    "name": "Portrait Segmentation Texture",
+    "version": "0.1.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "resourceFilePath": "/Applications/Effect House.app/Contents/Plugins/SegmentationTexture@1.0.22/resources/builtinAssets/default.segTex",
+    "references": [
+      {
+        "guid": "00000000-0000-0000-0000-00000000153E",
+        "propertyName": "00000000-0000-0000-0000-00000000153E"
+      },
+      {
+        "guid": "00000000-0000-0000-0000-00000000153F",
+        "propertyName": "00000000-0000-0000-0000-00000000153F"
+      }
+    ]
+  }
+]
