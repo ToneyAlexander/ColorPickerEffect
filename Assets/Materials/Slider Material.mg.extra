@@ -1,0 +1,23 @@
+[
+  {
+    "guid": {
+      "a": "621b20d8-24aa-c2c9-78af-23ad5a9e8fe2",
+      "b": ""
+    },
+    "extraType": "ResItemGraphMaterial",
+    "name": "Slider Material",
+    "version": "0.5.0",
+    "rttiType": "Material",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "resourceFilePath": "/Applications/Effect House.app/Contents/Resources/BuiltinResource/MaterialGraph/BuiltinAsset/Empty Material Graph.mg",
+    "references": [],
+    "skinObjGuid": "Guid(17601853538065436569, 4842480467938384824)",
+    "currAuslVersion": "1.0.0"
+  }
+]

@@ -722,7 +722,7 @@
       "isVisibleInInspector": true,
       "expanded": true
     },
-    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "sharedMaterial": "694eded8-80ad-7f7d-a27f-c33533f88222",
     "segBlendMode": "Normal_v2",
     "segRadius": 0.5,
     "segSoftness": 0.5,
@@ -791,7 +791,7 @@
       "isVisibleInInspector": true,
       "expanded": true
     },
-    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "sharedMaterial": "621b20d8-24aa-c2c9-78af-23ad5a9e8fe2",
     "segBlendMode": "Normal_v2",
     "segRadius": 0.5,
     "segSoftness": 0.5,

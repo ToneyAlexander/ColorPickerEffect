@@ -1,0 +1,56 @@
+{
+    "Shader": "Unlit",
+    "Pass": [
+        {
+            "MainEntryPath": "3D/BuiltIn/Unlit/Unlit_v1.asl",
+            "Cull": "Back",
+            "DepthWriteEnable": "On",
+            "BlendMode": "Disabled_v2",
+            "BlendModeOptions": [
+                "Disabled_v2",
+                "Normal_v2",
+                "Darken_v2",
+                "Multiply_v2",
+                "Lighten_v2",
+                "Screen_v2",
+                "Linear_Dodge_v2",
+                "Color_Burn_v2",
+                "Color_Dodge_v2",
+                "Overlay_v2",
+                "Soft_Light_v2",
+                "Difference_v2",
+                "Exclusion_v2"
+            ],
+            "ZTest": "LessEqual",
+            "Ausl": "3D/BuiltIn/Unlit/Unlit_v1.asl"
+        }
+    ],
+    "RenderQueue": 2000,
+    "API": ""
+}
+---ENDJSON
+
+---BEGIN UIPROPERTY
+
+    $omtl_albedo$
+    _AlbedoColor (omtl_color, Color) = [1.000000, 1.000000, 1.000000, 1.000000]
+    AlbedoTexture (omtl_texture_on, Defs) = 0
+    [AlbedoTexture] _AlbedoTexture (omtl_texture, 2D) = "Default_Material_Texture_Icon"
+    [AlbedoTexture] _EnableAlphaTest (omtl_alpha_test, Defs) = 0
+    [_EnableAlphaTest] _AlbedoCutoff (omtl_cutoff, Range(0.000000, 1.000000)) = 0.500000
+
+    $omtl_opacity$
+    AE_OpacityTexure (omtl_opacity, Defs) = 0
+    [AE_OpacityTexure] _OpacityTexture (omtl_texture, 2D) = "Default_Material_Texture_Icon"
+
+    $omtl_uv_control$
+    UvControl (omtl_uv_control, Defs) = 0
+    [UvControl] _Tiling (omtl_tiling, Vec2) = [1.000000, 1.000000]
+    [UvControl] _Offset (omtl_offset, Vec2) = [0.000000, 0.000000]
+    [UvControl] _UVRotation (omtl_rotation, Range(0.000000, 360.000000)) = 0.000000
+
+    $omtl_misc_render_setting$
+    VertexColorTinting (omtl_vertex_color_tinting, Defs) = 0
+    LinearWorkflow (omtl_linear_workflow, Defs) = 0
+
+---END UIPROPERTY

@@ -6,7 +6,7 @@
         "startTime": 1795247842572
       },
       "end": {
-        "endTime": 1795248576309
+        "endTime": 1795335247375
       }
     }
   },
@@ -5283,6 +5283,1562 @@
             "target": "commands.data.input.guid"
           }
         ]
+      }
+    },
+    {
+      "actionId": "none",
+      "actionType": "do",
+      "source": "API",
+      "commands": {
+        "name": "MoveAsset",
+        "data": {
+          "input": {
+            "guid": "b6cf48c9-b0ba-4c41-42e2-df68111a455e",
+            "folder": "/Users/toneyalexander/projects/ColorPickerEffect/Assets/Materials"
+          }
+        },
+        "subCommands": []
+      }
+    },
+    {
+      "actionId": "none",
+      "actionType": "do",
+      "source": "API",
+      "commands": {
+        "name": "MoveAsset",
+        "data": {
+          "input": {
+            "guid": "694eded8-80ad-7f7d-a27f-c33533f88222",
+            "folder": "/Users/toneyalexander/projects/ColorPickerEffect/Assets"
+          }
+        },
+        "subCommands": []
+      }
+    },
+    {
+      "actionId": "none",
+      "actionType": "do",
+      "source": "API",
+      "commands": {
+        "name": "DeleteAsset",
+        "data": {
+          "input": {
+            "guid": "b6cf48c9-b0ba-4c41-42e2-df68111a455e"
+          },
+          "output": {
+            "deletedAssetInfo": {
+              "guid": {
+                "type": "Guid",
+                "data": "b6cf48c9-b0ba-4c41-42e2-df68111a455e",
+                "readonly": true
+              },
+              "name": {
+                "type": "String",
+                "data": "Square Material"
+              },
+              "type": {
+                "type": "String",
+                "data": "Material",
+                "readonly": true
+              },
+              "filePath": {
+                "type": "String",
+                "data": "/Users/toneyalexander/projects/ColorPickerEffect/Assets/Materials/Square Material.omtl",
+                "readonly": true
+              },
+              "version": {
+                "type": "Version",
+                "data": "0.6.0",
+                "readonly": true
+              },
+              "subAssets": [],
+              "AE_OpacityTexure": {
+                "type": "Boolean",
+                "data": false
+              },
+              "UvControl": {
+                "type": "Boolean",
+                "data": false
+              },
+              "_AlbedoColor": {
+                "type": "Color",
+                "data": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
+              },
+              "AlbedoTexture": {
+                "type": "Boolean",
+                "data": false
+              },
+              "_AlbedoTexture": {
+                "type": "Texture",
+                "data": {
+                  "guid": "00000000-0000-0000-0000-000000000021"
+                }
+              },
+              "_EnableAlphaTest": {
+                "type": "Boolean",
+                "data": false
+              },
+              "_AlbedoCutoff": {
+                "type": "Number",
+                "data": 0.5
+              },
+              "_OpacityTexture": {
+                "type": "Texture",
+                "data": {
+                  "guid": "00000000-0000-0000-0000-000000000021"
+                }
+              },
+              "_Tiling": {
+                "type": "Vector2f",
+                "data": {
+                  "x": 1,
+                  "y": 1
+                }
+              },
+              "_Offset": {
+                "type": "Vector2f",
+                "data": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              "_UVRotation": {
+                "type": "Number",
+                "data": 0
+              },
+              "VertexColorTinting": {
+                "type": "Boolean",
+                "data": false
+              },
+              "LinearWorkflow": {
+                "type": "Boolean",
+                "data": false
+              },
+              "depthtest_0": {
+                "type": "Boolean",
+                "data": true
+              },
+              "depthwrite_0": {
+                "type": "Boolean",
+                "data": true
+              },
+              "depthfunction_0": {
+                "type": "Enum",
+                "data": "LessOrEqual",
+                "options": [
+                  "Never",
+                  "Less",
+                  "Equal",
+                  "LessOrEqual",
+                  "Greater",
+                  "NotEqual",
+                  "GreaterOrEqual",
+                  "Always"
+                ]
+              },
+              "colormask_0": {
+                "type": "Number",
+                "data": 15
+              },
+              "cullmode_0": {
+                "type": "Enum",
+                "data": "Back",
+                "options": [
+                  "None",
+                  "Front",
+                  "Back",
+                  "FrontAndBack"
+                ]
+              },
+              "blendmode_0": {
+                "type": "Enum",
+                "data": "DISABLED",
+                "options": [
+                  "DISABLED",
+                  "NORMAL",
+                  "MULTIPLY",
+                  "SCREEN",
+                  "AVERAGE",
+                  "LINEAR_DODGE_HARD",
+                  "ALPHA_PREMULTIPLY",
+                  "GLASS",
+                  "TRANSMISSION",
+                  "COLOR_BURN",
+                  "LINEAR_BURN",
+                  "COLOR_DODGE",
+                  "OVERLAY",
+                  "SOFT_LIGHT",
+                  "HARD_LIGHT",
+                  "VIVID_LIGHT",
+                  "LINEAR_LIGHT",
+                  "PIN_LIGHT",
+                  "HARD_MIX",
+                  "DIFFERENCE",
+                  "EXCLUSION",
+                  "DISSOLVE",
+                  "DARKER_COLOR",
+                  "LIGHTER_COLOR",
+                  "SUBTRACT",
+                  "DIVIDE",
+                  "HUE",
+                  "SATURATION",
+                  "COLOR",
+                  "LUMINOSITY",
+                  "COLORED_GLASS",
+                  "ALPHA_TEST",
+                  "LINEAR_DODGE",
+                  "DARKEN",
+                  "LIGHTEN",
+                  "MULTIPLY_SOFT",
+                  "SCREEN_SOFT",
+                  "AVERAGE_SOFT",
+                  "FROM_SHADER",
+                  "NORMAL_LEGACY",
+                  "TRANSPARENT_LEGACY",
+                  "COLORED_GLASS_LEGACY",
+                  "GLASS_LEGACY",
+                  "DARKEN_LEGACY",
+                  "MULTIPLY_LEGACY",
+                  "COLOR_BURN_LEGACY",
+                  "LIGHTEN_LEGACY",
+                  "SCREEN_LEGACY",
+                  "COLOR_DODGE_LEGACY",
+                  "LINEAR_DODGE_LEGACY",
+                  "OVERLAY_LEGACY",
+                  "SOFT_LIGHT_LEGACY",
+                  "DIFFERENCE_LEGACY",
+                  "EXCLUSION_LEGACY",
+                  "PARTICLE_ADD_LEGACY",
+                  "PARTICLE_NORMAL_LEGACY",
+                  "PARTICLE_PREMULTIPLY_NORMAL_LEGACY",
+                  "PARTICLE_PREMULTIPLY_ADD_LEGACY",
+                  "GAN_TRANSPARENT_LEGACY",
+                  "PREMULTIPLY_ALPHA_LEGACY",
+                  "FACEMASK_ADD"
+                ]
+              },
+              "renderQueue_0": {
+                "type": "Number",
+                "data": 2000
+              },
+              "instancecount_0": {
+                "type": "Number",
+                "data": 0
+              },
+              "polygonOffset_0": {
+                "type": "Vector2f",
+                "data": {
+                  "x": 0,
+                  "y": 0
+                }
+              }
+            }
+          }
+        },
+        "subCommands": []
+      }
+    },
+    {
+      "actionId": "8663e033-b65c-6573-5d28-6d0f940b165a",
+      "actionType": "do",
+      "source": "API",
+      "commands": {
+        "name": "MoveAsset",
+        "data": {
+          "input": {
+            "guid": "694eded8-80ad-7f7d-a27f-c33533f88222",
+            "folder": "/Users/toneyalexander/projects/ColorPickerEffect/Assets/Materials"
+          }
+        },
+        "subCommands": []
+      }
+    },
+    {
+      "actionId": "2a4d75ac-53d3-b77b-cb92-c627e2dbb401",
+      "actionType": "do",
+      "source": "API",
+      "commands": {
+        "name": "SetComponent",
+        "data": {
+          "input": {
+            "guid": "c4f48514-77ea-0bf4-3b93-1bc94fd86334",
+            "properties": [
+              {
+                "property": "sharedMaterial",
+                "value": {
+                  "type": "Material",
+                  "data": {
+                    "guid": "694eded8-80ad-7f7d-a27f-c33533f88222"
+                  }
+                }
+              }
+            ]
+          },
+          "output": {
+            "componentType": "Image",
+            "guid": "c4f48514-77ea-0bf4-3b93-1bc94fd86334",
+            "changes": [
+              {
+                "property": "sharedMaterial",
+                "oldValue": {
+                  "guid": "00000000-0000-0000-0000-000000000132"
+                },
+                "newValue": {
+                  "guid": "694eded8-80ad-7f7d-a27f-c33533f88222"
+                }
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      },
+      "context": {
+        "dependencies": [
+          {
+            "type": "guid",
+            "sourceId": "2aa2fe0a-32fa-35f5-61ef-26f59427b6ec",
+            "source": "commands.data.output.changes[0].newValue.guid",
+            "target": "commands.data.input.guid"
+          }
+        ]
+      }
+    },
+    {
+      "actionId": "1ee912a9-306f-d031-b4a7-5cc0b4222124",
+      "actionType": "do",
+      "source": "API",
+      "commands": {
+        "name": "SetComponent",
+        "data": {
+          "input": {
+            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
+            "properties": [
+              {
+                "property": "offsets",
+                "value": {
+                  "type": "Vector4f",
+                  "data": {
+                    "x": 140,
+                    "y": 620,
+                    "z": 760,
+                    "w": 1240
+                  }
+                }
+              }
+            ]
+          },
+          "output": {
+            "componentType": "ScreenTransform",
+            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
+            "changes": [
+              {
+                "property": "offsets",
+                "oldValue": {
+                  "x": 40,
+                  "y": 520,
+                  "z": 760,
+                  "w": 1240
+                },
+                "newValue": {
+                  "x": 140,
+                  "y": 620,
+                  "z": 760,
+                  "w": 1240
+                }
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      },
+      "context": {
+        "dependencies": [
+          {
+            "type": "guid",
+            "sourceId": "b227c665-0e29-45d9-b120-bafb8d50a9fc",
+            "source": "commands.data.output.changes[0].newValue.guid",
+            "target": "commands.data.input.guid"
+          }
+        ]
+      }
+    },
+    {
+      "actionId": "1ee912a9-306f-d031-b4a7-5cc0b4222124",
+      "actionType": "undo",
+      "source": "API",
+      "commands": {
+        "name": "SetComponent",
+        "data": {
+          "input": {
+            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
+            "properties": [
+              {
+                "property": "anchoredPosition",
+                "value": {
+                  "type": "Vector2f",
+                  "data": {
+                    "x": 40,
+                    "y": 760
+                  }
+                }
+              }
+            ]
+          },
+          "output": {
+            "componentType": "ScreenTransform",
+            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
+            "changes": [
+              {
+                "property": "anchoredPosition",
+                "oldValue": {
+                  "x": 140,
+                  "y": 760
+                },
+                "newValue": {
+                  "x": 40,
+                  "y": 760
+                }
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      }
+    },
+    {
+      "actionId": "5e437956-7584-1f60-abee-46268811b03f",
+      "actionType": "undo",
+      "source": "API",
+      "commands": {
+        "name": "AddComponent",
+        "data": {
+          "input": {
+            "sceneObject": "8b560c80-21ac-f196-740b-90e3ed146fb3",
+            "type": "Transform"
+          },
+          "output": {
+            "type": {
+              "type": "String",
+              "data": "Transform",
+              "readonly": true
+            },
+            "guid": {
+              "type": "Guid",
+              "data": "69ab2df1-5bd0-3c4b-caf5-e811fb699a93",
+              "readonly": true
+            },
+            "name": {
+              "type": "String",
+              "data": "Transform",
+              "readonly": true
+            },
+            "version": {
+              "type": "Version",
+              "data": "0.1.0",
+              "readonly": true
+            },
+            "enabled": {
+              "type": "Boolean",
+              "data": true
+            },
+            "localPosition": {
+              "type": "Vector3f",
+              "data": {
+                "x": -30,
+                "y": 20,
+                "z": -20
+              }
+            },
+            "localScale": {
+              "type": "Vector3f",
+              "data": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              }
+            },
+            "eulerAngle": {
+              "type": "Vector3f",
+              "data": {
+                "x": 338,
+                "y": 0,
+                "z": 0
+              }
+            }
+          }
+        },
+        "subCommands": [
+          {
+            "name": "SetComponent",
+            "data": {
+              "input": {
+                "guid": "69ab2df1-5bd0-3c4b-caf5-e811fb699a93",
+                "properties": [
+                  {
+                    "property": "guid",
+                    "value": {
+                      "type": "Guid",
+                      "data": "69ab2df1-5bd0-3c4b-caf5-e811fb699a93",
+                      "readonly": true
+                    }
+                  }
+                ]
+              }
+            },
+            "subCommands": []
+          },
+          {
+            "name": "SetComponent",
+            "data": {
+              "input": {
+                "guid": "69ab2df1-5bd0-3c4b-caf5-e811fb699a93",
+                "properties": [
+                  {
+                    "property": "version",
+                    "value": {
+                      "type": "Version",
+                      "data": "0.1.0",
+                      "readonly": true
+                    }
+                  }
+                ]
+              }
+            },
+            "subCommands": []
+          },
+          {
+            "name": "SetComponent",
+            "data": {
+              "input": {
+                "guid": "69ab2df1-5bd0-3c4b-caf5-e811fb699a93",
+                "properties": []
+              }
+            },
+            "subCommands": []
+          },
+          {
+            "name": "SetComponent",
+            "data": {
+              "input": {
+                "guid": "69ab2df1-5bd0-3c4b-caf5-e811fb699a93",
+                "properties": []
+              }
+            },
+            "subCommands": []
+          },
+          {
+            "name": "SetComponent",
+            "data": {
+              "input": {
+                "guid": "69ab2df1-5bd0-3c4b-caf5-e811fb699a93",
+                "properties": [
+                  {
+                    "property": "eulerAngle",
+                    "value": {
+                      "type": "Vector3f",
+                      "data": {
+                        "x": 338,
+                        "y": 0,
+                        "z": 0
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            "subCommands": []
+          }
+        ]
+      }
+    },
+    {
+      "actionId": "5e437956-7584-1f60-abee-46268811b03f",
+      "actionType": "undo",
+      "source": "API",
+      "commands": {
+        "name": "AddComponent",
+        "data": {
+          "input": {
+            "sceneObject": "8b560c80-21ac-f196-740b-90e3ed146fb3",
+            "type": "DirectionalLight"
+          },
+          "output": {
+            "type": {
+              "type": "String",
+              "data": "DirectionalLight",
+              "readonly": true
+            },
+            "guid": {
+              "type": "Guid",
+              "data": "c231a065-d921-421b-c55d-9d0bff5821e9",
+              "readonly": true
+            },
+            "name": {
+              "type": "String",
+              "data": "Directional Light",
+              "readonly": true
+            },
+            "version": {
+              "type": "Version",
+              "data": "0.1.0",
+              "readonly": true
+            },
+            "enabled": {
+              "type": "Boolean",
+              "data": true
+            },
+            "intensity": {
+              "type": "Number",
+              "data": 1
+            },
+            "color": {
+              "type": "Color",
+              "data": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            },
+            "castShadow": {
+              "type": "Boolean",
+              "data": false
+            },
+            "shadowResolution": {
+              "type": "Vector2f",
+              "data": {
+                "x": 256,
+                "y": 256
+              }
+            },
+            "shadowStrength": {
+              "type": "Number",
+              "data": 1
+            },
+            "shadowBias": {
+              "type": "Number",
+              "data": 0
+            },
+            "shadowColor": {
+              "type": "Color",
+              "data": {
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 1
+              }
+            },
+            "selfShadowGradient": {
+              "type": "Number",
+              "data": 0
+            },
+            "softShadow": {
+              "type": "Boolean",
+              "data": false
+            },
+            "shadowSoftness": {
+              "type": "Number",
+              "data": 1
+            },
+            "shadowAutoFrustum": {
+              "type": "Boolean",
+              "data": true
+            },
+            "shadowFrustumArea": {
+              "type": "Number",
+              "data": 100
+            },
+            "shadowFrustumNear": {
+              "type": "Number",
+              "data": 1
+            },
+            "shadowFrustumFar": {
+              "type": "Number",
+              "data": 100
+            },
+            "renderLayer": {
+              "type": "LayerSet",
+              "data": {
+                "hexadecimal": 1
+              }
+            }
+          }
+        },
+        "subCommands": [
+          {
+            "name": "SetComponent",
+            "data": {
+              "input": {
+                "guid": "c231a065-d921-421b-c55d-9d0bff5821e9",
+                "properties": [
+                  {
+                    "property": "guid",
+                    "value": {
+                      "type": "Guid",
+                      "data": "c231a065-d921-421b-c55d-9d0bff5821e9",
+                      "readonly": true
+                    }
+                  }
+                ]
+              }
+            },
+            "subCommands": []
+          },
+          {
+            "name": "SetComponent",
+            "data": {
+              "input": {
+                "guid": "c231a065-d921-421b-c55d-9d0bff5821e9",
+                "properties": [
+                  {
+                    "property": "version",
+                    "value": {
+                      "type": "Version",
+                      "data": "0.1.0",
+                      "readonly": true
+                    }
+                  }
+                ]
+              }
+            },
+            "subCommands": []
+          },
+          {
+            "name": "SetComponent",
+            "data": {
+              "input": {
+                "guid": "c231a065-d921-421b-c55d-9d0bff5821e9",
+                "properties": []
+              }
+            },
+            "subCommands": []
+          },
+          {
+            "name": "SetComponent",
+            "data": {
+              "input": {
+                "guid": "c231a065-d921-421b-c55d-9d0bff5821e9",
+                "properties": []
+              }
+            },
+            "subCommands": []
+          }
+        ]
+      }
+    },
+    {
+      "actionId": "5e437956-7584-1f60-abee-46268811b03f",
+      "actionType": "undo",
+      "source": "API",
+      "commands": {
+        "name": "SetSceneObject",
+        "data": {
+          "input": {
+            "guid": "8b560c80-21ac-f196-740b-90e3ed146fb3",
+            "properties": [
+              {
+                "property": "guid",
+                "value": {
+                  "type": "Guid",
+                  "data": "d8f2317b-2b42-3107-58c9-00e801ee21a1"
+                }
+              }
+            ]
+          },
+          "output": {
+            "guid": "8b560c80-21ac-f196-740b-90e3ed146fb3",
+            "changes": [
+              {
+                "property": "guid",
+                "oldValue": "8b560c80-21ac-f196-740b-90e3ed146fb3",
+                "newValue": "d8f2317b-2b42-3107-58c9-00e801ee21a1"
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      }
+    },
+    {
+      "actionId": "5e437956-7584-1f60-abee-46268811b03f",
+      "actionType": "undo",
+      "source": "API",
+      "commands": {
+        "name": "SetSceneObject",
+        "data": {
+          "input": {
+            "guid": "d8f2317b-2b42-3107-58c9-00e801ee21a1",
+            "properties": [
+              {
+                "property": "version",
+                "value": {
+                  "type": "Version",
+                  "data": "0.1.0"
+                }
+              }
+            ]
+          },
+          "output": {
+            "guid": "d8f2317b-2b42-3107-58c9-00e801ee21a1",
+            "changes": [
+              {
+                "property": "version",
+                "oldValue": "0.1.0",
+                "newValue": "0.1.0"
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      }
+    },
+    {
+      "actionId": "5e437956-7584-1f60-abee-46268811b03f",
+      "actionType": "undo",
+      "source": "API",
+      "commands": {
+        "name": "SetSceneObject",
+        "data": {
+          "input": {
+            "guid": "d8f2317b-2b42-3107-58c9-00e801ee21a1",
+            "properties": [
+              {
+                "property": "createdEffectNodeKey",
+                "value": {
+                  "type": "String",
+                  "data": "effect_node_utility"
+                }
+              }
+            ]
+          },
+          "output": {
+            "guid": "d8f2317b-2b42-3107-58c9-00e801ee21a1",
+            "changes": [
+              {
+                "property": "createdEffectNodeKey",
+                "oldValue": "",
+                "newValue": "effect_node_utility"
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      }
+    },
+    {
+      "actionId": "5e437956-7584-1f60-abee-46268811b03f",
+      "actionType": "undo",
+      "source": "API",
+      "commands": {
+        "name": "MoveSceneObject",
+        "data": {
+          "input": {
+            "guid": "d8f2317b-2b42-3107-58c9-00e801ee21a1",
+            "parent": "602a125f-adef-400a-1092-0fec2f5a3f83",
+            "aboveSceneObject": "2bc89bee-163e-1e67-262e-d67c4d1ae052"
+          }
+        },
+        "subCommands": []
+      }
+    },
+    {
+      "actionId": "28024520-62c1-e9fc-d579-395825b0f493",
+      "actionType": "undo",
+      "source": "API",
+      "commands": {
+        "name": "SetComponent",
+        "data": {
+          "input": {
+            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
+            "properties": [
+              {
+                "property": "verticalConstraint",
+                "value": {
+                  "type": "Enum",
+                  "data": "BOTTOM_AND_FIXED",
+                  "options": [
+                    "STRETCH",
+                    "FIXED",
+                    "BOTTOM",
+                    "TOP",
+                    "BOTTOM_AND_FIXED",
+                    "TOP_AND_FIXED",
+                    "BOTTOM_AND_TOP",
+                    "INVALID"
+                  ]
+                }
+              }
+            ]
+          },
+          "output": {
+            "componentType": "ScreenTransform",
+            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
+            "changes": [
+              {
+                "property": "verticalConstraint",
+                "oldValue": "FIXED",
+                "newValue": "BOTTOM_AND_FIXED"
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      },
+      "context": {
+        "dependencies": [
+          {
+            "type": "guid",
+            "sourceId": "1ee912a9-306f-d031-b4a7-5cc0b4222124",
+            "source": "commands.data.output.guid",
+            "target": "commands.data.input.guid"
+          }
+        ]
+      }
+    },
+    {
+      "actionId": "3d48c39d-6d29-b085-2859-a185c039cab7",
+      "actionType": "undo",
+      "source": "API",
+      "commands": {
+        "name": "SetComponent",
+        "data": {
+          "input": {
+            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
+            "properties": [
+              {
+                "property": "horizontalConstraint",
+                "value": {
+                  "type": "Enum",
+                  "data": "LEFT_AND_FIXED",
+                  "options": [
+                    "STRETCH",
+                    "FIXED",
+                    "LEFT",
+                    "RIGHT",
+                    "LEFT_AND_FIXED",
+                    "RIGHT_AND_FIXED",
+                    "LEFT_AND_RIGHT",
+                    "INVALID"
+                  ]
+                }
+              }
+            ]
+          },
+          "output": {
+            "componentType": "ScreenTransform",
+            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
+            "changes": [
+              {
+                "property": "horizontalConstraint",
+                "oldValue": "FIXED",
+                "newValue": "LEFT_AND_FIXED"
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      },
+      "context": {
+        "dependencies": [
+          {
+            "type": "guid",
+            "sourceId": "28024520-62c1-e9fc-d579-395825b0f493",
+            "source": "commands.data.output.guid",
+            "target": "commands.data.input.guid"
+          }
+        ]
+      }
+    },
+    {
+      "actionId": "f3b29ab1-1212-8805-a243-80dab98a58b6",
+      "actionType": "do",
+      "source": "API",
+      "commands": {
+        "name": "SetComponent",
+        "data": {
+          "input": {
+            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
+            "properties": [
+              {
+                "property": "horizontalConstraint",
+                "value": {
+                  "type": "Enum",
+                  "data": "FIXED",
+                  "options": [
+                    "STRETCH",
+                    "FIXED",
+                    "LEFT",
+                    "RIGHT",
+                    "LEFT_AND_FIXED",
+                    "RIGHT_AND_FIXED",
+                    "LEFT_AND_RIGHT",
+                    "INVALID"
+                  ]
+                }
+              }
+            ]
+          },
+          "output": {
+            "componentType": "ScreenTransform",
+            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
+            "changes": [
+              {
+                "property": "horizontalConstraint",
+                "oldValue": "LEFT_AND_FIXED",
+                "newValue": "FIXED"
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      },
+      "context": {
+        "dependencies": [
+          {
+            "type": "guid",
+            "sourceId": "3d48c39d-6d29-b085-2859-a185c039cab7",
+            "source": "commands.data.output.guid",
+            "target": "commands.data.input.guid"
+          }
+        ]
+      }
+    },
+    {
+      "actionId": "f3b29ab1-1212-8805-a243-80dab98a58b6",
+      "actionType": "undo",
+      "source": "API",
+      "commands": {
+        "name": "SetComponent",
+        "data": {
+          "input": {
+            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
+            "properties": [
+              {
+                "property": "horizontalConstraint",
+                "value": {
+                  "type": "Enum",
+                  "data": "LEFT_AND_FIXED",
+                  "options": [
+                    "STRETCH",
+                    "FIXED",
+                    "LEFT",
+                    "RIGHT",
+                    "LEFT_AND_FIXED",
+                    "RIGHT_AND_FIXED",
+                    "LEFT_AND_RIGHT",
+                    "INVALID"
+                  ]
+                }
+              }
+            ]
+          },
+          "output": {
+            "componentType": "ScreenTransform",
+            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
+            "changes": [
+              {
+                "property": "horizontalConstraint",
+                "oldValue": "FIXED",
+                "newValue": "LEFT_AND_FIXED"
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      }
+    },
+    {
+      "actionId": "91e58c48-d02e-3964-127e-247bd3a7683b",
+      "actionType": "undo",
+      "source": "API",
+      "commands": {
+        "name": "SetComponent",
+        "data": {
+          "input": {
+            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
+            "properties": [
+              {
+                "property": "verticalConstraint",
+                "value": {
+                  "type": "Enum",
+                  "data": "FIXED",
+                  "options": [
+                    "STRETCH",
+                    "FIXED",
+                    "BOTTOM",
+                    "TOP",
+                    "BOTTOM_AND_FIXED",
+                    "TOP_AND_FIXED",
+                    "BOTTOM_AND_TOP",
+                    "INVALID"
+                  ]
+                }
+              }
+            ]
+          },
+          "output": {
+            "componentType": "ScreenTransform",
+            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
+            "changes": [
+              {
+                "property": "verticalConstraint",
+                "oldValue": "TOP_AND_FIXED",
+                "newValue": "FIXED"
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      },
+      "context": {
+        "dependencies": [
+          {
+            "type": "guid",
+            "sourceId": "b4588bb1-be5e-686f-2bec-c6d4c30ec202",
+            "source": "commands.data.output.changes[0].newValue.guid",
+            "target": "commands.data.input.guid"
+          }
+        ]
+      }
+    },
+    {
+      "actionId": "76bc30af-78d6-827e-e212-f61d3aced758",
+      "actionType": "undo",
+      "source": "API",
+      "commands": {
+        "name": "SetComponent",
+        "data": {
+          "input": {
+            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
+            "properties": [
+              {
+                "property": "verticalConstraint",
+                "value": {
+                  "type": "Enum",
+                  "data": "TOP_AND_FIXED",
+                  "options": [
+                    "STRETCH",
+                    "FIXED",
+                    "BOTTOM",
+                    "TOP",
+                    "BOTTOM_AND_FIXED",
+                    "TOP_AND_FIXED",
+                    "BOTTOM_AND_TOP",
+                    "INVALID"
+                  ]
+                }
+              }
+            ]
+          },
+          "output": {
+            "componentType": "ScreenTransform",
+            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
+            "changes": [
+              {
+                "property": "verticalConstraint",
+                "oldValue": "FIXED",
+                "newValue": "TOP_AND_FIXED"
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      },
+      "context": {
+        "dependencies": [
+          {
+            "type": "guid",
+            "sourceId": "91e58c48-d02e-3964-127e-247bd3a7683b",
+            "source": "commands.data.output.guid",
+            "target": "commands.data.input.guid"
+          }
+        ]
+      }
+    },
+    {
+      "actionId": "782af582-c49e-72c5-523b-937fd055d2f9",
+      "actionType": "undo",
+      "source": "API",
+      "commands": {
+        "name": "SetComponent",
+        "data": {
+          "input": {
+            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
+            "properties": [
+              {
+                "property": "horizontalConstraint",
+                "value": {
+                  "type": "Enum",
+                  "data": "RIGHT_AND_FIXED",
+                  "options": [
+                    "STRETCH",
+                    "FIXED",
+                    "LEFT",
+                    "RIGHT",
+                    "LEFT_AND_FIXED",
+                    "RIGHT_AND_FIXED",
+                    "LEFT_AND_RIGHT",
+                    "INVALID"
+                  ]
+                }
+              }
+            ]
+          },
+          "output": {
+            "componentType": "ScreenTransform",
+            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
+            "changes": [
+              {
+                "property": "horizontalConstraint",
+                "oldValue": "FIXED",
+                "newValue": "RIGHT_AND_FIXED"
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      },
+      "context": {
+        "dependencies": [
+          {
+            "type": "guid",
+            "sourceId": "76bc30af-78d6-827e-e212-f61d3aced758",
+            "source": "commands.data.output.guid",
+            "target": "commands.data.input.guid"
+          }
+        ]
+      }
+    },
+    {
+      "actionId": "407e301e-cbe6-5449-335d-3b3eae3219ee",
+      "actionType": "undo",
+      "source": "API",
+      "commands": {
+        "name": "SetComponent",
+        "data": {
+          "input": {
+            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
+            "properties": [
+              {
+                "property": "verticalConstraint",
+                "value": {
+                  "type": "Enum",
+                  "data": "BOTTOM_AND_FIXED",
+                  "options": [
+                    "STRETCH",
+                    "FIXED",
+                    "BOTTOM",
+                    "TOP",
+                    "BOTTOM_AND_FIXED",
+                    "TOP_AND_FIXED",
+                    "BOTTOM_AND_TOP",
+                    "INVALID"
+                  ]
+                }
+              }
+            ]
+          },
+          "output": {
+            "componentType": "ScreenTransform",
+            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
+            "changes": [
+              {
+                "property": "verticalConstraint",
+                "oldValue": "TOP_AND_FIXED",
+                "newValue": "BOTTOM_AND_FIXED"
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      },
+      "context": {
+        "dependencies": [
+          {
+            "type": "guid",
+            "sourceId": "782af582-c49e-72c5-523b-937fd055d2f9",
+            "source": "commands.data.output.guid",
+            "target": "commands.data.input.guid"
+          }
+        ]
+      }
+    },
+    {
+      "actionId": "1127ba77-7fe3-fd2f-dc15-a49827328133",
+      "actionType": "undo",
+      "source": "API",
+      "commands": {
+        "name": "SetComponent",
+        "data": {
+          "input": {
+            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
+            "properties": [
+              {
+                "property": "anchoredPosition",
+                "value": {
+                  "type": "Vector2f",
+                  "data": {
+                    "x": -160,
+                    "y": 760
+                  }
+                }
+              }
+            ]
+          },
+          "output": {
+            "componentType": "ScreenTransform",
+            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
+            "changes": [
+              {
+                "property": "anchoredPosition",
+                "oldValue": {
+                  "x": -160,
+                  "y": 1240
+                },
+                "newValue": {
+                  "x": -160,
+                  "y": 760
+                }
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      },
+      "context": {
+        "dependencies": [
+          {
+            "type": "guid",
+            "sourceId": "407e301e-cbe6-5449-335d-3b3eae3219ee",
+            "source": "commands.data.output.guid",
+            "target": "commands.data.input.guid"
+          }
+        ]
+      }
+    },
+    {
+      "actionId": "1127ba77-7fe3-fd2f-dc15-a49827328133",
+      "actionType": "undo",
+      "source": "API",
+      "commands": {
+        "name": "SetComponent",
+        "data": {
+          "input": {
+            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
+            "properties": [
+              {
+                "property": "pivot",
+                "value": {
+                  "type": "Vector2f",
+                  "data": {
+                    "x": 0,
+                    "y": 0
+                  }
+                }
+              }
+            ]
+          },
+          "output": {
+            "componentType": "ScreenTransform",
+            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
+            "changes": [
+              {
+                "property": "pivot",
+                "oldValue": {
+                  "x": 0,
+                  "y": 1
+                },
+                "newValue": {
+                  "x": 0,
+                  "y": 0
+                }
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      }
+    },
+    {
+      "actionId": "7ae1d777-7c1d-5ef8-4f3f-f078bfae2246",
+      "actionType": "do",
+      "source": "API",
+      "commands": {
+        "name": "SetComponent",
+        "data": {
+          "input": {
+            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
+            "properties": [
+              {
+                "property": "verticalConstraint",
+                "value": {
+                  "type": "Enum",
+                  "data": "TOP_AND_FIXED",
+                  "options": [
+                    "STRETCH",
+                    "FIXED",
+                    "BOTTOM",
+                    "TOP",
+                    "BOTTOM_AND_FIXED",
+                    "TOP_AND_FIXED",
+                    "BOTTOM_AND_TOP",
+                    "INVALID"
+                  ]
+                }
+              }
+            ]
+          },
+          "output": {
+            "componentType": "ScreenTransform",
+            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
+            "changes": [
+              {
+                "property": "verticalConstraint",
+                "oldValue": "BOTTOM_AND_FIXED",
+                "newValue": "TOP_AND_FIXED"
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      },
+      "context": {
+        "dependencies": [
+          {
+            "type": "guid",
+            "sourceId": "1127ba77-7fe3-fd2f-dc15-a49827328133",
+            "source": "commands.data.output.guid",
+            "target": "commands.data.input.guid"
+          }
+        ]
+      }
+    },
+    {
+      "actionId": "e094fa05-8165-bddc-0439-3d9422037b6a",
+      "actionType": "do",
+      "source": "API",
+      "commands": {
+        "name": "SetComponent",
+        "data": {
+          "input": {
+            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
+            "properties": [
+              {
+                "property": "verticalConstraint",
+                "value": {
+                  "type": "Enum",
+                  "data": "FIXED",
+                  "options": [
+                    "STRETCH",
+                    "FIXED",
+                    "BOTTOM",
+                    "TOP",
+                    "BOTTOM_AND_FIXED",
+                    "TOP_AND_FIXED",
+                    "BOTTOM_AND_TOP",
+                    "INVALID"
+                  ]
+                }
+              }
+            ]
+          },
+          "output": {
+            "componentType": "ScreenTransform",
+            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
+            "changes": [
+              {
+                "property": "verticalConstraint",
+                "oldValue": "TOP_AND_FIXED",
+                "newValue": "FIXED"
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      },
+      "context": {
+        "dependencies": [
+          {
+            "type": "guid",
+            "sourceId": "7ae1d777-7c1d-5ef8-4f3f-f078bfae2246",
+            "source": "commands.data.output.guid",
+            "target": "commands.data.input.guid"
+          }
+        ]
+      }
+    },
+    {
+      "actionId": "cf9c90e5-7336-a7cc-0a33-f17d4432d867",
+      "actionType": "do",
+      "source": "API",
+      "commands": {
+        "name": "SetComponent",
+        "data": {
+          "input": {
+            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
+            "properties": [
+              {
+                "property": "verticalConstraint",
+                "value": {
+                  "type": "Enum",
+                  "data": "TOP_AND_FIXED",
+                  "options": [
+                    "STRETCH",
+                    "FIXED",
+                    "BOTTOM",
+                    "TOP",
+                    "BOTTOM_AND_FIXED",
+                    "TOP_AND_FIXED",
+                    "BOTTOM_AND_TOP",
+                    "INVALID"
+                  ]
+                }
+              }
+            ]
+          },
+          "output": {
+            "componentType": "ScreenTransform",
+            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
+            "changes": [
+              {
+                "property": "verticalConstraint",
+                "oldValue": "FIXED",
+                "newValue": "TOP_AND_FIXED"
+              }
+            ]
+          }
+        },
+        "subCommands": []
+      },
+      "context": {
+        "dependencies": [
+          {
+            "type": "guid",
+            "sourceId": "e094fa05-8165-bddc-0439-3d9422037b6a",
+            "source": "commands.data.output.guid",
+            "target": "commands.data.input.guid"
+          }
+        ]
+      }
+    },
+    {
+      "actionId": "none",
+      "actionType": "do",
+      "source": "API",
+      "commands": {
+        "name": "MoveAsset",
+        "data": {
+          "input": {
+            "guid": "621b20d8-24aa-c2c9-78af-23ad5a9e8fe2",
+            "folder": "/Users/toneyalexander/projects/ColorPickerEffect/Assets/Materials"
+          }
+        },
+        "subCommands": []
       }
     }
   ]

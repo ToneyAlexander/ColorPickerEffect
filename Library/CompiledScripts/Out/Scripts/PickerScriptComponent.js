@@ -29,6 +29,9 @@ let PickerScriptComponent = class PickerScriptComponent extends APJS.BasicScript
         this.x = 0.0;
         this.y = 0.0;
         this.z = 0.0;
+        this.T_NAME = "_Custom_Float_2";
+        this.U_NAME = "_Custom_Float_3";
+        this.V_NAME = "_Custom_Float";
         this.init = true;
         this.touchCb = (event) => {
             const t = event.args[0];
@@ -39,13 +42,16 @@ let PickerScriptComponent = class PickerScriptComponent extends APJS.BasicScript
                 const pixelX = t.position.x * this.w;
                 const pixelY = (1.0 - t.position.y) * this.h;
                 this.x = (pixelX - this.squareTransform.anchoredPosition.x) / this.squareTransform.sizeDelta.x;
-                this.y = -(pixelY - this.squareTransform.anchoredPosition.y - this.squareTransform.sizeDelta.y) / this.squareTransform.sizeDelta.y;
+                this.y = -(pixelY - this.squareTransform.anchoredPosition.y) / this.squareTransform.sizeDelta.y;
                 this.setColor(new APJS.Color(this.x, this.y, this.z, 1.0));
                 this.dot.anchoredPosition = this.getScreenPosition(t.position);
+                this.sliderImage.materials[0].setFloat(this.T_NAME, this.x);
+                this.sliderImage.materials[0].setFloat(this.U_NAME, this.y);
             }
             if (APJS.TouchUtils.isScreenPointOnImage(t.position, this.sliderImage)) {
                 const pixelY = (1.0 - t.position.y) * this.h;
-                this.z = -(pixelY - this.sliderTransform.anchoredPosition.y - this.sliderTransform.sizeDelta.y) / this.sliderTransform.sizeDelta.y;
+                this.z = -(pixelY - this.sliderTransform.anchoredPosition.y) / this.sliderTransform.sizeDelta.y;
+                this.squareImage.materials[0].setFloat(this.V_NAME, this.z);
                 this.setColor(new APJS.Color(this.x, this.y, this.z, 1.0));
                 this.sliderHandle.anchoredPosition = new APJS.Vector2f(this.sliderHandle.anchoredPosition.x, this.getScreenPosition(t.position).y);
             }
@@ -62,6 +68,9 @@ let PickerScriptComponent = class PickerScriptComponent extends APJS.BasicScript
             this.dot.anchoredPosition = new APJS.Vector2f(-720 / 2 + 40, 600);
             this.sliderHandle.anchoredPosition = new APJS.Vector2f(720 / 2 - 40 - 60, 600);
             this.setColor(new APJS.Color(this.x, this.y, this.z, 1.0));
+            this.sliderImage.materials[0].setFloat(this.T_NAME, this.x);
+            this.sliderImage.materials[0].setFloat(this.U_NAME, this.y);
+            this.squareImage.materials[0].setFloat(this.V_NAME, this.z);
         }
     }
     getScreenPosition(normalizedPos) {
@@ -106,7 +115,19 @@ __decorate([
 __decorate([
     serializeProperty
 ], PickerScriptComponent.prototype, "sliderHandle", void 0);
+__decorate([
+    serializeProperty
+], PickerScriptComponent.prototype, "squareMaterial", void 0);
+__decorate([
+    serializeProperty
+], PickerScriptComponent.prototype, "sliderMaterial", void 0);
 PickerScriptComponent = __decorate([
     component()
 ], PickerScriptComponent);
 exports.PickerScriptComponent = PickerScriptComponent;
+//TODO
+//TUV math converters
+//initial condiitosn tweaking
+//background & visualizer
+//show text
+//dot and sliderhandle UI elements

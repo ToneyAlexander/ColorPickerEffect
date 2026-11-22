@@ -1,6 +1,6 @@
 {
   "name": "Untitled",
-  "lastModified": "Sat, 21 Nov 2026 08:08:43 GMT",
+  "lastModified": "Sun, 22 Nov 2026 01:52:00 GMT",
   "version": "5.16.0",
   "renderNames": {
     "0": "Default Layer",
@@ -68,9 +68,9 @@
     "62": "Layer 62",
     "63": "Layer 63"
   },
-  "durationToCreate": 7943128,
-  "durationCreation": 7873769,
-  "durationBackground": 4459384,
+  "durationToCreate": 71740062,
+  "durationCreation": 71670703,
+  "durationBackground": 64364194,
   "effectHint": "",
   "templateID": "templateID_none",
   "overwriteBuiltinGAN": 1,
@@ -97,7 +97,14 @@
   },
   "fromNewUserGuide": false,
   "selectedIdList": [
-    "amz:Guid(12556524315008655158, 17452297847767284376)"
+    "editor:621b20d8-24aa-c2c9-78af-23ad5a9e8fe2"
   ],
-  "lastSceneView": 0
+  "lastSceneView": 0,
+  "effectSize": 1349027,
+  "effectPackagePath": "/Users/toneyalexander/Library/Application Support/EffectHouse/Instances/Instance1/submit/package/effect.zip",
+  "perfTested": true,
+  "effectUploadResult": {
+    "uri": "/obj/tiktok-effect-public-us/effects/effect/xKGZj2CsBrLx8uRqQSxWbP_0664a042daf2eca6918bb060c6e18dcb",
+    "url": "https://lf16-effect.tiktokcdn.com//obj/tiktok-effect-public-us/effects/effect/xKGZj2CsBrLx8uRqQSxWbP_0664a042daf2eca6918bb060c6e18dcb"
+  }
 }

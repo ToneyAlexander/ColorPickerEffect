@@ -1,0 +1,20 @@
+[
+  {
+    "guid": {
+      "a": "52cb40e7-34f6-0177-774a-6befb9c4ebc1",
+      "b": ""
+    },
+    "extraType": "ResItemComponentGraph",
+    "name": "New Graph Component",
+    "version": "0.0.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "resourceFilePath": "/Applications/Effect House.app/Contents/Resources/BuiltinResource/ScriptGraph/BuiltinAsset/Custom Component.compgraph",
+    "references": []
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "guid": {
+      "a": "b6cf48c9-b0ba-4c41-42e2-df68111a455e",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "Unlit",
+    "version": "0.6.0",
+    "rttiType": "Material",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "resourceFilePath": "/Applications/Effect House.app/Contents/Resources/BuiltinResource/assets/OrionShaderLibrary/3D/BuiltIn/Unlit/Unlit.omtl",
+    "references": [
+      {
+        "propertyName": "_AlbedoTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      },
+      {
+        "propertyName": "_OpacityTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      }
+    ],
+    "skinObjGuid": "Guid(16160226781035756047, 1710306786425728151)",
+    "currAuslVersion": "1.0.0"
+  }
+]
