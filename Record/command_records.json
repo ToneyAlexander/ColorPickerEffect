@@ -3,10 +3,10 @@
   "context": {
     "snapshot": {
       "start": {
-        "startTime": 1795247842572
+        "startTime": 1795540885328
       },
       "end": {
-        "endTime": 1795335247375
+        "endTime": 1795562383565
       }
     }
   },
@@ -1129,7 +1129,7 @@
                             },
                             "guid": {
                               "type": "Guid",
-                              "data": "1257a908-67b6-59fd-efcb-765c96a08557",
+                              "data": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
                               "readonly": true
                             },
                             "name": {
@@ -1153,50 +1153,66 @@
                             "frontImage": {
                               "type": "Image",
                               "data": {
-                                "guid": "null"
+                                "guid": "764c64b2-3376-d0eb-8c8a-266b24e7dcb8"
                               }
                             },
                             "backImage": {
                               "type": "Image",
                               "data": {
-                                "guid": "null"
+                                "guid": "e4b9da9f-77df-bf1e-8b98-6899d329c3be"
                               }
                             },
                             "squareImage": {
                               "type": "Image",
                               "data": {
-                                "guid": "null"
+                                "guid": "c4f48514-77ea-0bf4-3b93-1bc94fd86334"
                               }
                             },
                             "squareTransform": {
                               "type": "ScreenTransform",
                               "data": {
-                                "guid": "null"
+                                "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188"
                               }
                             },
                             "sliderImage": {
                               "type": "Image",
                               "data": {
-                                "guid": "null"
+                                "guid": "5eef5563-946c-4862-3c70-e9c911150ad5"
                               }
                             },
                             "sliderTransform": {
                               "type": "ScreenTransform",
                               "data": {
-                                "guid": "null"
+                                "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719"
                               }
                             },
                             "dot": {
                               "type": "ScreenTransform",
                               "data": {
-                                "guid": "null"
+                                "guid": "82dfc50f-3c28-988c-9ce2-5e7e33d1772d"
                               }
                             },
-                            "handle": {
+                            "sliderHandle": {
                               "type": "ScreenTransform",
                               "data": {
-                                "guid": "null"
+                                "guid": "572cf300-4ab8-cc52-f0d9-2ce6b2df360f"
                               }
+                            },
+                            "squareMaterial": {
+                              "type": "Material",
+                              "data": {
+                                "guid": "694eded8-80ad-7f7d-a27f-c33533f88222"
+                              }
+                            },
+                            "sliderMaterial": {
+                              "type": "Material",
+                              "data": {
+                                "guid": "621b20d8-24aa-c2c9-78af-23ad5a9e8fe2"
+                              }
+                            },
+                            "r2": {
+                              "type": "Number",
+                              "data": 2
                             }
                           },
                           {
@@ -1270,11 +1286,27 @@
                                 "guid": "null"
                               }
                             },
-                            "handle": {
+                            "sliderHandle": {
                               "type": "ScreenTransform",
                               "data": {
                                 "guid": "null"
                               }
+                            },
+                            "squareMaterial": {
+                              "type": "Material",
+                              "data": {
+                                "guid": "00000000-0000-0000-0000-000000000093"
+                              }
+                            },
+                            "sliderMaterial": {
+                              "type": "Material",
+                              "data": {
+                                "guid": "00000000-0000-0000-0000-000000000093"
+                              }
+                            },
+                            "r2": {
+                              "type": "Number",
+                              "data": 2
                             }
                           }
                         ]
@@ -1619,7 +1651,7 @@
                         },
                         "cameraType": {
                           "type": "Enum",
-                          "data": "PERSPECTIVE",
+                          "data": "ORTHO",
                           "options": [
                             "PERSPECTIVE",
                             "ORTHO"
@@ -1802,7 +1834,7 @@
                               "type": "Vector2f",
                               "data": {
                                 "x": 40,
-                                "y": 760
+                                "y": 1240
                               }
                             },
                             "sizeDelta": {
@@ -1816,7 +1848,7 @@
                               "type": "Vector2f",
                               "data": {
                                 "x": 0,
-                                "y": 0
+                                "y": 1
                               }
                             },
                             "rotation": {
@@ -1872,13 +1904,13 @@
                             "sharedMaterial": {
                               "type": "Material",
                               "data": {
-                                "guid": "00000000-0000-0000-0000-000000000132"
+                                "guid": "694eded8-80ad-7f7d-a27f-c33533f88222"
                               }
                             },
                             "texture": {
                               "type": "Texture",
                               "data": {
-                                "guid": "00000000-0000-0000-0000-000000000027"
+                                "guid": "00000000-0000-0000-0000-00000000006b"
                               }
                             },
                             "segTex": {
@@ -2153,7 +2185,7 @@
                               "type": "Vector2f",
                               "data": {
                                 "x": -160,
-                                "y": 760
+                                "y": 1240
                               }
                             },
                             "sizeDelta": {
@@ -2167,7 +2199,7 @@
                               "type": "Vector2f",
                               "data": {
                                 "x": 0,
-                                "y": 0
+                                "y": 1
                               }
                             },
                             "rotation": {
@@ -2223,13 +2255,13 @@
                             "sharedMaterial": {
                               "type": "Material",
                               "data": {
-                                "guid": "00000000-0000-0000-0000-000000000132"
+                                "guid": "621b20d8-24aa-c2c9-78af-23ad5a9e8fe2"
                               }
                             },
                             "texture": {
                               "type": "Texture",
                               "data": {
-                                "guid": "00000000-0000-0000-0000-000000001543"
+                                "guid": "00000000-0000-0000-0000-00000000006b"
                               }
                             },
                             "segTex": {
@@ -2816,7 +2848,7 @@
                             },
                             "horizontalConstraint": {
                               "type": "Enum",
-                              "data": "RIGHT_AND_FIXED",
+                              "data": "FIXED",
                               "options": [
                                 "STRETCH",
                                 "FIXED",
@@ -2845,8 +2877,8 @@
                             "offsets": {
                               "type": "Vector4f",
                               "data": {
-                                "x": -160,
-                                "y": -40,
+                                "x": 200,
+                                "y": 320,
                                 "z": -10,
                                 "w": 10
                               }
@@ -2854,7 +2886,7 @@
                             "anchoredPosition": {
                               "type": "Vector2f",
                               "data": {
-                                "x": -100,
+                                "x": 260,
                                 "y": 0
                               }
                             },
@@ -2890,8 +2922,8 @@
                             "anchors": {
                               "type": "Vector4f",
                               "data": {
-                                "x": 1,
-                                "y": 1,
+                                "x": 0.5,
+                                "y": 0.5,
                                 "z": 0.5,
                                 "w": 0.5
                               }
@@ -3486,137 +3518,6 @@
             {
               "guid": {
                 "type": "Guid",
-                "data": "9ed41b37-a444-5f74-1138-ab037b6e32cb",
-                "readonly": true
-              },
-              "name": {
-                "type": "String",
-                "data": "grid"
-              },
-              "type": {
-                "type": "String",
-                "data": "Texture2D",
-                "readonly": true
-              },
-              "filePath": {
-                "type": "String",
-                "data": "/Users/toneyalexander/projects/ColorPickerEffect/Assets/Textures/grid.png",
-                "readonly": true
-              },
-              "version": {
-                "type": "Version",
-                "data": "0.2.0",
-                "readonly": true
-              },
-              "subAssets": [],
-              "width": {
-                "type": "Number",
-                "data": 4
-              },
-              "height": {
-                "type": "Number",
-                "data": 8
-              },
-              "artifactFileSize": {
-                "type": "Number",
-                "data": 584
-              },
-              "assetType": {
-                "type": "String",
-                "data": "PNG"
-              },
-              "compressionType": {
-                "type": "Enum",
-                "data": "None",
-                "options": [
-                  "Automatic",
-                  "Manual",
-                  "None"
-                ]
-              },
-              "compressQuality": {
-                "type": "Enum",
-                "data": "High",
-                "options": [
-                  "High",
-                  "Medium",
-                  "Low"
-                ]
-              },
-              "compressMaxResolution": {
-                "type": "Enum",
-                "data": "Size1024",
-                "options": [
-                  "Size1024",
-                  "Size512",
-                  "Size256",
-                  "Size128"
-                ]
-              },
-              "enableMipmap": {
-                "type": "Boolean",
-                "data": false
-              },
-              "filterMin": {
-                "type": "Enum",
-                "data": "Nearest",
-                "options": [
-                  "Nearest",
-                  "Linear"
-                ]
-              },
-              "filterMag": {
-                "type": "Enum",
-                "data": "Nearest",
-                "options": [
-                  "Nearest",
-                  "Linear"
-                ]
-              },
-              "filterMipmap": {
-                "type": "Enum",
-                "data": "None",
-                "options": [
-                  "None",
-                  "Nearest",
-                  "Linear"
-                ]
-              },
-              "wrapModeS": {
-                "type": "Enum",
-                "data": "Repeat",
-                "options": [
-                  "Repeat",
-                  "Clamp",
-                  "Mirror"
-                ]
-              },
-              "wrapModeT": {
-                "type": "Enum",
-                "data": "Repeat",
-                "options": [
-                  "Repeat",
-                  "Clamp",
-                  "Mirror"
-                ]
-              },
-              "wrapModeR": {
-                "type": "Enum",
-                "data": "Repeat",
-                "options": [
-                  "Repeat",
-                  "Clamp",
-                  "Mirror"
-                ]
-              },
-              "premultiplyAlpha": {
-                "type": "Boolean",
-                "data": false
-              }
-            },
-            {
-              "guid": {
-                "type": "Guid",
                 "data": "ac2ff739-a1fc-4992-5f29-c78dc086f1f2",
                 "readonly": true
               },
@@ -4065,1271 +3966,164 @@
                   "y": 0
                 }
               }
-            }
-          ]
-        },
-        "subCommands": []
-      }
-    },
-    {
-      "actionId": "9a81a9df-91c1-0dd6-0fbe-0604c4d2f0d7",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "AddComponentByConfig",
-        "data": {
-          "input": {
-            "id": "PickerScriptComponent",
-            "guid": "94dabce6-6c8c-5e88-8e10-79a04fb15c53"
-          },
-          "output": {
-            "type": {
-              "type": "String",
-              "data": "PickerScriptComponent",
-              "readonly": true
             },
-            "guid": {
-              "type": "Guid",
-              "data": "c9af8554-5d58-ff92-2f1c-99384ae91121",
-              "readonly": true
-            },
-            "name": {
-              "type": "String",
-              "data": "PickerScriptComponent",
-              "readonly": true
-            },
-            "version": {
-              "type": "Version",
-              "data": "0.1.0",
-              "readonly": true
-            },
-            "enabled": {
-              "type": "Boolean",
-              "data": true
-            },
-            "resGuid": {
-              "type": "String",
-              "data": "d35db5d1-aed0-7701-15e8-954aec439603"
-            },
-            "frontImage": {
-              "type": "Image",
-              "data": {
-                "guid": "null"
-              }
-            },
-            "backImage": {
-              "type": "Image",
-              "data": {
-                "guid": "null"
-              }
-            },
-            "squareImage": {
-              "type": "Image",
-              "data": {
-                "guid": "null"
-              }
-            },
-            "squareTransform": {
-              "type": "ScreenTransform",
-              "data": {
-                "guid": "null"
-              }
-            },
-            "sliderImage": {
-              "type": "Image",
-              "data": {
-                "guid": "null"
-              }
-            },
-            "sliderTransform": {
-              "type": "ScreenTransform",
-              "data": {
-                "guid": "null"
-              }
-            },
-            "dot": {
-              "type": "ScreenTransform",
-              "data": {
-                "guid": "null"
-              }
-            }
-          }
-        },
-        "subCommands": [
-          {
-            "name": "AddComponent",
-            "data": {
-              "input": {
-                "sceneObject": "94dabce6-6c8c-5e88-8e10-79a04fb15c53",
-                "type": "UserComponentEditor"
-              }
-            },
-            "subCommands": []
-          }
-        ]
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "GetScene",
-            "source": "commands.data.output.renderGroups[0].sceneObjects[0].children[0].guid.data",
-            "target": "commands.data.input.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "ed9d8cba-f727-bef1-dde3-090ce51e2d03",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "c9af8554-5d58-ff92-2f1c-99384ae91121",
-            "properties": [
-              {
-                "property": "frontImage",
-                "value": {
-                  "type": "Image",
-                  "data": {
-                    "guid": "764c64b2-3376-d0eb-8c8a-266b24e7dcb8"
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "UserComponentEditor",
-            "guid": "c9af8554-5d58-ff92-2f1c-99384ae91121",
-            "changes": [
-              {
-                "property": "frontImage",
-                "oldValue": {
-                  "guid": "null"
-                },
-                "newValue": {
-                  "guid": "764c64b2-3376-d0eb-8c8a-266b24e7dcb8"
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "9a81a9df-91c1-0dd6-0fbe-0604c4d2f0d7",
-            "source": "commands.data.output.guid.data",
-            "target": "commands.data.input.guid"
-          },
-          {
-            "type": "guid",
-            "sourceId": "GetScene",
-            "source": "commands.data.output.renderGroups[0].sceneObjects[0].children[0].children[2].components[1].guid.data",
-            "target": "commands.data.input.properties[0].value.data.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "01ee67ec-86ea-d1d1-abd6-d9964d82a186",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "c9af8554-5d58-ff92-2f1c-99384ae91121",
-            "properties": [
-              {
-                "property": "backImage",
-                "value": {
-                  "type": "Image",
-                  "data": {
-                    "guid": "e4b9da9f-77df-bf1e-8b98-6899d329c3be"
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "UserComponentEditor",
-            "guid": "c9af8554-5d58-ff92-2f1c-99384ae91121",
-            "changes": [
-              {
-                "property": "backImage",
-                "oldValue": {
-                  "guid": "null"
-                },
-                "newValue": {
-                  "guid": "e4b9da9f-77df-bf1e-8b98-6899d329c3be"
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "ed9d8cba-f727-bef1-dde3-090ce51e2d03",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          },
-          {
-            "type": "guid",
-            "sourceId": "GetScene",
-            "source": "commands.data.output.renderGroups[0].sceneObjects[0].children[0].children[0].components[1].guid.data",
-            "target": "commands.data.input.properties[0].value.data.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "5736e9f3-fff8-088c-24f4-e99238be6a03",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "c9af8554-5d58-ff92-2f1c-99384ae91121",
-            "properties": [
-              {
-                "property": "squareImage",
-                "value": {
-                  "type": "Image",
-                  "data": {
-                    "guid": "c4f48514-77ea-0bf4-3b93-1bc94fd86334"
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "UserComponentEditor",
-            "guid": "c9af8554-5d58-ff92-2f1c-99384ae91121",
-            "changes": [
-              {
-                "property": "squareImage",
-                "oldValue": {
-                  "guid": "null"
-                },
-                "newValue": {
-                  "guid": "c4f48514-77ea-0bf4-3b93-1bc94fd86334"
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "01ee67ec-86ea-d1d1-abd6-d9964d82a186",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          },
-          {
-            "type": "guid",
-            "sourceId": "GetScene",
-            "source": "commands.data.output.renderGroups[2].sceneObjects[0].children[0].components[1].guid.data",
-            "target": "commands.data.input.properties[0].value.data.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "3d2101b8-7c7c-723d-c5f7-d45197e5d931",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "c9af8554-5d58-ff92-2f1c-99384ae91121",
-            "properties": [
-              {
-                "property": "squareTransform",
-                "value": {
-                  "type": "ScreenTransform",
-                  "data": {
-                    "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188"
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "UserComponentEditor",
-            "guid": "c9af8554-5d58-ff92-2f1c-99384ae91121",
-            "changes": [
-              {
-                "property": "squareTransform",
-                "oldValue": {
-                  "guid": "null"
-                },
-                "newValue": {
-                  "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188"
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "5736e9f3-fff8-088c-24f4-e99238be6a03",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          },
-          {
-            "type": "guid",
-            "sourceId": "GetScene",
-            "source": "commands.data.output.renderGroups[2].sceneObjects[0].children[0].components[0].guid.data",
-            "target": "commands.data.input.properties[0].value.data.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "dfd8d1d6-2246-e334-5446-9c18f94a3de9",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "c9af8554-5d58-ff92-2f1c-99384ae91121",
-            "properties": [
-              {
-                "property": "sliderImage",
-                "value": {
-                  "type": "Image",
-                  "data": {
-                    "guid": "5eef5563-946c-4862-3c70-e9c911150ad5"
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "UserComponentEditor",
-            "guid": "c9af8554-5d58-ff92-2f1c-99384ae91121",
-            "changes": [
-              {
-                "property": "sliderImage",
-                "oldValue": {
-                  "guid": "null"
-                },
-                "newValue": {
-                  "guid": "5eef5563-946c-4862-3c70-e9c911150ad5"
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "3d2101b8-7c7c-723d-c5f7-d45197e5d931",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          },
-          {
-            "type": "guid",
-            "sourceId": "GetScene",
-            "source": "commands.data.output.renderGroups[2].sceneObjects[0].children[1].components[1].guid.data",
-            "target": "commands.data.input.properties[0].value.data.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "a9ad1ebe-cbcc-88b0-eb8f-0262deb995f1",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "c9af8554-5d58-ff92-2f1c-99384ae91121",
-            "properties": [
-              {
-                "property": "sliderTransform",
-                "value": {
-                  "type": "ScreenTransform",
-                  "data": {
-                    "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719"
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "UserComponentEditor",
-            "guid": "c9af8554-5d58-ff92-2f1c-99384ae91121",
-            "changes": [
-              {
-                "property": "sliderTransform",
-                "oldValue": {
-                  "guid": "null"
-                },
-                "newValue": {
-                  "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719"
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "dfd8d1d6-2246-e334-5446-9c18f94a3de9",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          },
-          {
-            "type": "guid",
-            "sourceId": "GetScene",
-            "source": "commands.data.output.renderGroups[2].sceneObjects[0].children[1].components[0].guid.data",
-            "target": "commands.data.input.properties[0].value.data.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "6e92909c-cead-7921-9f47-62d5b8108133",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "c9af8554-5d58-ff92-2f1c-99384ae91121",
-            "properties": [
-              {
-                "property": "dot",
-                "value": {
-                  "type": "ScreenTransform",
-                  "data": {
-                    "guid": "82dfc50f-3c28-988c-9ce2-5e7e33d1772d"
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "UserComponentEditor",
-            "guid": "c9af8554-5d58-ff92-2f1c-99384ae91121",
-            "changes": [
-              {
-                "property": "dot",
-                "oldValue": {
-                  "guid": "null"
-                },
-                "newValue": {
-                  "guid": "82dfc50f-3c28-988c-9ce2-5e7e33d1772d"
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "a9ad1ebe-cbcc-88b0-eb8f-0262deb995f1",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          },
-          {
-            "type": "guid",
-            "sourceId": "GetScene",
-            "source": "commands.data.output.renderGroups[2].sceneObjects[0].children[2].components[0].guid.data",
-            "target": "commands.data.input.properties[0].value.data.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "9e478a65-a4a5-60a1-0fc0-b8a8ccc13e17",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "DeleteComponent",
-        "data": {
-          "input": {
-            "guid": "c9af8554-5d58-ff92-2f1c-99384ae91121"
-          },
-          "output": {
-            "deletedComponentInfo": {
-              "type": {
-                "type": "String",
-                "data": "PickerScriptComponent",
-                "readonly": true
-              },
+            {
               "guid": {
                 "type": "Guid",
-                "data": "c9af8554-5d58-ff92-2f1c-99384ae91121",
+                "data": "621b20d8-24aa-c2c9-78af-23ad5a9e8fe2",
                 "readonly": true
               },
               "name": {
                 "type": "String",
-                "data": "PickerScriptComponent",
+                "data": "Slider Material"
+              },
+              "type": {
+                "type": "String",
+                "data": "Material",
+                "readonly": true
+              },
+              "filePath": {
+                "type": "String",
+                "data": "/Users/toneyalexander/projects/ColorPickerEffect/Assets/Materials/Slider Material.mg",
                 "readonly": true
               },
               "version": {
                 "type": "Version",
-                "data": "0.1.0",
+                "data": "0.5.0",
                 "readonly": true
               },
-              "enabled": {
+              "subAssets": [],
+              "_Custom_Float_2": {
+                "type": "Number",
+                "data": 0.1
+              },
+              "_Custom_Float_3": {
+                "type": "Number",
+                "data": 0.2
+              },
+              "depthtest_0": {
                 "type": "Boolean",
                 "data": true
               },
-              "resGuid": {
-                "type": "String",
-                "data": "d35db5d1-aed0-7701-15e8-954aec439603"
+              "depthwrite_0": {
+                "type": "Boolean",
+                "data": true
               },
-              "frontImage": {
-                "type": "Image",
-                "data": {
-                  "guid": "null"
-                }
+              "depthfunction_0": {
+                "type": "Enum",
+                "data": "LessOrEqual",
+                "options": [
+                  "Never",
+                  "Less",
+                  "Equal",
+                  "LessOrEqual",
+                  "Greater",
+                  "NotEqual",
+                  "GreaterOrEqual",
+                  "Always"
+                ]
               },
-              "backImage": {
-                "type": "Image",
-                "data": {
-                  "guid": "null"
-                }
+              "colormask_0": {
+                "type": "Number",
+                "data": 15
               },
-              "squareImage": {
-                "type": "Image",
-                "data": {
-                  "guid": "null"
-                }
+              "cullmode_0": {
+                "type": "Enum",
+                "data": "Back",
+                "options": [
+                  "None",
+                  "Front",
+                  "Back",
+                  "FrontAndBack"
+                ]
               },
-              "squareTransform": {
-                "type": "ScreenTransform",
-                "data": {
-                  "guid": "null"
-                }
+              "blendmode_0": {
+                "type": "Enum",
+                "data": "DISABLED",
+                "options": [
+                  "DISABLED",
+                  "NORMAL",
+                  "MULTIPLY",
+                  "SCREEN",
+                  "AVERAGE",
+                  "LINEAR_DODGE_HARD",
+                  "ALPHA_PREMULTIPLY",
+                  "GLASS",
+                  "TRANSMISSION",
+                  "COLOR_BURN",
+                  "LINEAR_BURN",
+                  "COLOR_DODGE",
+                  "OVERLAY",
+                  "SOFT_LIGHT",
+                  "HARD_LIGHT",
+                  "VIVID_LIGHT",
+                  "LINEAR_LIGHT",
+                  "PIN_LIGHT",
+                  "HARD_MIX",
+                  "DIFFERENCE",
+                  "EXCLUSION",
+                  "DISSOLVE",
+                  "DARKER_COLOR",
+                  "LIGHTER_COLOR",
+                  "SUBTRACT",
+                  "DIVIDE",
+                  "HUE",
+                  "SATURATION",
+                  "COLOR",
+                  "LUMINOSITY",
+                  "COLORED_GLASS",
+                  "ALPHA_TEST",
+                  "LINEAR_DODGE",
+                  "DARKEN",
+                  "LIGHTEN",
+                  "MULTIPLY_SOFT",
+                  "SCREEN_SOFT",
+                  "AVERAGE_SOFT",
+                  "FROM_SHADER",
+                  "NORMAL_LEGACY",
+                  "TRANSPARENT_LEGACY",
+                  "COLORED_GLASS_LEGACY",
+                  "GLASS_LEGACY",
+                  "DARKEN_LEGACY",
+                  "MULTIPLY_LEGACY",
+                  "COLOR_BURN_LEGACY",
+                  "LIGHTEN_LEGACY",
+                  "SCREEN_LEGACY",
+                  "COLOR_DODGE_LEGACY",
+                  "LINEAR_DODGE_LEGACY",
+                  "OVERLAY_LEGACY",
+                  "SOFT_LIGHT_LEGACY",
+                  "DIFFERENCE_LEGACY",
+                  "EXCLUSION_LEGACY",
+                  "PARTICLE_ADD_LEGACY",
+                  "PARTICLE_NORMAL_LEGACY",
+                  "PARTICLE_PREMULTIPLY_NORMAL_LEGACY",
+                  "PARTICLE_PREMULTIPLY_ADD_LEGACY",
+                  "GAN_TRANSPARENT_LEGACY",
+                  "PREMULTIPLY_ALPHA_LEGACY",
+                  "FACEMASK_ADD"
+                ]
               },
-              "sliderImage": {
-                "type": "Image",
-                "data": {
-                  "guid": "null"
-                }
+              "renderQueue_0": {
+                "type": "Number",
+                "data": 2000
               },
-              "sliderTransform": {
-                "type": "ScreenTransform",
-                "data": {
-                  "guid": "null"
-                }
+              "instancecount_0": {
+                "type": "Number",
+                "data": 0
               },
-              "dot": {
-                "type": "ScreenTransform",
+              "polygonOffset_0": {
+                "type": "Vector2f",
                 "data": {
-                  "guid": "null"
+                  "x": 0,
+                  "y": 0
                 }
-              }
-            }
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "6e92909c-cead-7921-9f47-62d5b8108133",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "cc2c4c5a-141d-416d-91f2-4942c6d83241",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "AddComponentByConfig",
-        "data": {
-          "input": {
-            "id": "PickerScriptComponent",
-            "guid": "94dabce6-6c8c-5e88-8e10-79a04fb15c53"
-          },
-          "output": {
-            "type": {
-              "type": "String",
-              "data": "PickerScriptComponent",
-              "readonly": true
-            },
-            "guid": {
-              "type": "Guid",
-              "data": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
-              "readonly": true
-            },
-            "name": {
-              "type": "String",
-              "data": "PickerScriptComponent",
-              "readonly": true
-            },
-            "version": {
-              "type": "Version",
-              "data": "0.1.0",
-              "readonly": true
-            },
-            "enabled": {
-              "type": "Boolean",
-              "data": true
-            },
-            "resGuid": {
-              "type": "String",
-              "data": "d35db5d1-aed0-7701-15e8-954aec439603"
-            },
-            "frontImage": {
-              "type": "Image",
-              "data": {
-                "guid": "null"
               }
             },
-            "backImage": {
-              "type": "Image",
-              "data": {
-                "guid": "null"
-              }
-            },
-            "squareImage": {
-              "type": "Image",
-              "data": {
-                "guid": "null"
-              }
-            },
-            "squareTransform": {
-              "type": "ScreenTransform",
-              "data": {
-                "guid": "null"
-              }
-            },
-            "sliderImage": {
-              "type": "Image",
-              "data": {
-                "guid": "null"
-              }
-            },
-            "sliderTransform": {
-              "type": "ScreenTransform",
-              "data": {
-                "guid": "null"
-              }
-            },
-            "dot": {
-              "type": "ScreenTransform",
-              "data": {
-                "guid": "null"
-              }
-            },
-            "sliderHandle": {
-              "type": "ScreenTransform",
-              "data": {
-                "guid": "null"
-              }
-            }
-          }
-        },
-        "subCommands": [
-          {
-            "name": "AddComponent",
-            "data": {
-              "input": {
-                "sceneObject": "94dabce6-6c8c-5e88-8e10-79a04fb15c53",
-                "type": "UserComponentEditor"
-              }
-            },
-            "subCommands": []
-          }
-        ]
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "GetScene",
-            "source": "commands.data.output.renderGroups[0].sceneObjects[0].children[0].guid.data",
-            "target": "commands.data.input.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "aa39145b-e094-d7f6-8922-f0283059dffb",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
-            "properties": [
-              {
-                "property": "frontImage",
-                "value": {
-                  "type": "Image",
-                  "data": {
-                    "guid": "764c64b2-3376-d0eb-8c8a-266b24e7dcb8"
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "UserComponentEditor",
-            "guid": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
-            "changes": [
-              {
-                "property": "frontImage",
-                "oldValue": {
-                  "guid": "null"
-                },
-                "newValue": {
-                  "guid": "764c64b2-3376-d0eb-8c8a-266b24e7dcb8"
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "cc2c4c5a-141d-416d-91f2-4942c6d83241",
-            "source": "commands.data.output.guid.data",
-            "target": "commands.data.input.guid"
-          },
-          {
-            "type": "guid",
-            "sourceId": "ed9d8cba-f727-bef1-dde3-090ce51e2d03",
-            "source": "commands.data.output.changes[0].newValue.guid",
-            "target": "commands.data.input.properties[0].value.data.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "0cfe9b6d-aa5c-7262-55ec-540e31190381",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
-            "properties": [
-              {
-                "property": "backImage",
-                "value": {
-                  "type": "Image",
-                  "data": {
-                    "guid": "e4b9da9f-77df-bf1e-8b98-6899d329c3be"
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "UserComponentEditor",
-            "guid": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
-            "changes": [
-              {
-                "property": "backImage",
-                "oldValue": {
-                  "guid": "null"
-                },
-                "newValue": {
-                  "guid": "e4b9da9f-77df-bf1e-8b98-6899d329c3be"
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "aa39145b-e094-d7f6-8922-f0283059dffb",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          },
-          {
-            "type": "guid",
-            "sourceId": "01ee67ec-86ea-d1d1-abd6-d9964d82a186",
-            "source": "commands.data.output.changes[0].newValue.guid",
-            "target": "commands.data.input.properties[0].value.data.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "2aa2fe0a-32fa-35f5-61ef-26f59427b6ec",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
-            "properties": [
-              {
-                "property": "squareImage",
-                "value": {
-                  "type": "Image",
-                  "data": {
-                    "guid": "c4f48514-77ea-0bf4-3b93-1bc94fd86334"
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "UserComponentEditor",
-            "guid": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
-            "changes": [
-              {
-                "property": "squareImage",
-                "oldValue": {
-                  "guid": "null"
-                },
-                "newValue": {
-                  "guid": "c4f48514-77ea-0bf4-3b93-1bc94fd86334"
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "0cfe9b6d-aa5c-7262-55ec-540e31190381",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          },
-          {
-            "type": "guid",
-            "sourceId": "5736e9f3-fff8-088c-24f4-e99238be6a03",
-            "source": "commands.data.output.changes[0].newValue.guid",
-            "target": "commands.data.input.properties[0].value.data.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "b227c665-0e29-45d9-b120-bafb8d50a9fc",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
-            "properties": [
-              {
-                "property": "squareTransform",
-                "value": {
-                  "type": "ScreenTransform",
-                  "data": {
-                    "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188"
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "UserComponentEditor",
-            "guid": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
-            "changes": [
-              {
-                "property": "squareTransform",
-                "oldValue": {
-                  "guid": "null"
-                },
-                "newValue": {
-                  "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188"
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "2aa2fe0a-32fa-35f5-61ef-26f59427b6ec",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          },
-          {
-            "type": "guid",
-            "sourceId": "3d2101b8-7c7c-723d-c5f7-d45197e5d931",
-            "source": "commands.data.output.changes[0].newValue.guid",
-            "target": "commands.data.input.properties[0].value.data.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "01ef38fa-2acb-17d3-15cf-1983f399807b",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
-            "properties": [
-              {
-                "property": "sliderImage",
-                "value": {
-                  "type": "Image",
-                  "data": {
-                    "guid": "5eef5563-946c-4862-3c70-e9c911150ad5"
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "UserComponentEditor",
-            "guid": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
-            "changes": [
-              {
-                "property": "sliderImage",
-                "oldValue": {
-                  "guid": "null"
-                },
-                "newValue": {
-                  "guid": "5eef5563-946c-4862-3c70-e9c911150ad5"
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "b227c665-0e29-45d9-b120-bafb8d50a9fc",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          },
-          {
-            "type": "guid",
-            "sourceId": "dfd8d1d6-2246-e334-5446-9c18f94a3de9",
-            "source": "commands.data.output.changes[0].newValue.guid",
-            "target": "commands.data.input.properties[0].value.data.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "b4588bb1-be5e-686f-2bec-c6d4c30ec202",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
-            "properties": [
-              {
-                "property": "sliderTransform",
-                "value": {
-                  "type": "ScreenTransform",
-                  "data": {
-                    "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719"
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "UserComponentEditor",
-            "guid": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
-            "changes": [
-              {
-                "property": "sliderTransform",
-                "oldValue": {
-                  "guid": "null"
-                },
-                "newValue": {
-                  "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719"
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "01ef38fa-2acb-17d3-15cf-1983f399807b",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          },
-          {
-            "type": "guid",
-            "sourceId": "a9ad1ebe-cbcc-88b0-eb8f-0262deb995f1",
-            "source": "commands.data.output.changes[0].newValue.guid",
-            "target": "commands.data.input.properties[0].value.data.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "325cb486-758a-9084-bb00-3df8c4cda697",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
-            "properties": [
-              {
-                "property": "dot",
-                "value": {
-                  "type": "ScreenTransform",
-                  "data": {
-                    "guid": "82dfc50f-3c28-988c-9ce2-5e7e33d1772d"
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "UserComponentEditor",
-            "guid": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
-            "changes": [
-              {
-                "property": "dot",
-                "oldValue": {
-                  "guid": "null"
-                },
-                "newValue": {
-                  "guid": "82dfc50f-3c28-988c-9ce2-5e7e33d1772d"
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "b4588bb1-be5e-686f-2bec-c6d4c30ec202",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          },
-          {
-            "type": "guid",
-            "sourceId": "6e92909c-cead-7921-9f47-62d5b8108133",
-            "source": "commands.data.output.changes[0].newValue.guid",
-            "target": "commands.data.input.properties[0].value.data.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "1a2875ab-5e0a-04b5-9da9-ba9f64348ebc",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
-            "properties": [
-              {
-                "property": "sliderHandle",
-                "value": {
-                  "type": "ScreenTransform",
-                  "data": {
-                    "guid": "572cf300-4ab8-cc52-f0d9-2ce6b2df360f"
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "UserComponentEditor",
-            "guid": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
-            "changes": [
-              {
-                "property": "sliderHandle",
-                "oldValue": {
-                  "guid": "null"
-                },
-                "newValue": {
-                  "guid": "572cf300-4ab8-cc52-f0d9-2ce6b2df360f"
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "325cb486-758a-9084-bb00-3df8c4cda697",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          },
-          {
-            "type": "guid",
-            "sourceId": "GetScene",
-            "source": "commands.data.output.renderGroups[2].sceneObjects[0].children[3].components[0].guid.data",
-            "target": "commands.data.input.properties[0].value.data.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "a510d2ce-e215-0f5e-b880-3be8b71f7ffe",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "572cf300-4ab8-cc52-f0d9-2ce6b2df360f",
-            "properties": [
-              {
-                "property": "horizontalConstraint",
-                "value": {
-                  "type": "Enum",
-                  "data": "FIXED",
-                  "options": [
-                    "STRETCH",
-                    "FIXED",
-                    "LEFT",
-                    "RIGHT",
-                    "LEFT_AND_FIXED",
-                    "RIGHT_AND_FIXED",
-                    "LEFT_AND_RIGHT",
-                    "INVALID"
-                  ]
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "ScreenTransform",
-            "guid": "572cf300-4ab8-cc52-f0d9-2ce6b2df360f",
-            "changes": [
-              {
-                "property": "horizontalConstraint",
-                "oldValue": "RIGHT_AND_FIXED",
-                "newValue": "FIXED"
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "1a2875ab-5e0a-04b5-9da9-ba9f64348ebc",
-            "source": "commands.data.output.changes[0].newValue.guid",
-            "target": "commands.data.input.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "none",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "MoveAsset",
-        "data": {
-          "input": {
-            "guid": "b6cf48c9-b0ba-4c41-42e2-df68111a455e",
-            "folder": "/Users/toneyalexander/projects/ColorPickerEffect/Assets/Materials"
-          }
-        },
-        "subCommands": []
-      }
-    },
-    {
-      "actionId": "none",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "MoveAsset",
-        "data": {
-          "input": {
-            "guid": "694eded8-80ad-7f7d-a27f-c33533f88222",
-            "folder": "/Users/toneyalexander/projects/ColorPickerEffect/Assets"
-          }
-        },
-        "subCommands": []
-      }
-    },
-    {
-      "actionId": "none",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "DeleteAsset",
-        "data": {
-          "input": {
-            "guid": "b6cf48c9-b0ba-4c41-42e2-df68111a455e"
-          },
-          "output": {
-            "deletedAssetInfo": {
+            {
               "guid": {
                 "type": "Guid",
-                "data": "b6cf48c9-b0ba-4c41-42e2-df68111a455e",
+                "data": "694eded8-80ad-7f7d-a27f-c33533f88222",
                 "readonly": true
               },
               "name": {
@@ -5343,81 +4137,18 @@
               },
               "filePath": {
                 "type": "String",
-                "data": "/Users/toneyalexander/projects/ColorPickerEffect/Assets/Materials/Square Material.omtl",
+                "data": "/Users/toneyalexander/projects/ColorPickerEffect/Assets/Materials/Square Material.mg",
                 "readonly": true
               },
               "version": {
                 "type": "Version",
-                "data": "0.6.0",
+                "data": "0.5.0",
                 "readonly": true
               },
               "subAssets": [],
-              "AE_OpacityTexure": {
-                "type": "Boolean",
-                "data": false
-              },
-              "UvControl": {
-                "type": "Boolean",
-                "data": false
-              },
-              "_AlbedoColor": {
-                "type": "Color",
-                "data": {
-                  "r": 1,
-                  "g": 1,
-                  "b": 1,
-                  "a": 1
-                }
-              },
-              "AlbedoTexture": {
-                "type": "Boolean",
-                "data": false
-              },
-              "_AlbedoTexture": {
-                "type": "Texture",
-                "data": {
-                  "guid": "00000000-0000-0000-0000-000000000021"
-                }
-              },
-              "_EnableAlphaTest": {
-                "type": "Boolean",
-                "data": false
-              },
-              "_AlbedoCutoff": {
+              "_Custom_Float": {
                 "type": "Number",
                 "data": 0.5
-              },
-              "_OpacityTexture": {
-                "type": "Texture",
-                "data": {
-                  "guid": "00000000-0000-0000-0000-000000000021"
-                }
-              },
-              "_Tiling": {
-                "type": "Vector2f",
-                "data": {
-                  "x": 1,
-                  "y": 1
-                }
-              },
-              "_Offset": {
-                "type": "Vector2f",
-                "data": {
-                  "x": 0,
-                  "y": 0
-                }
-              },
-              "_UVRotation": {
-                "type": "Number",
-                "data": 0
-              },
-              "VertexColorTinting": {
-                "type": "Boolean",
-                "data": false
-              },
-              "LinearWorkflow": {
-                "type": "Boolean",
-                "data": false
               },
               "depthtest_0": {
                 "type": "Boolean",
@@ -5538,1292 +4269,9 @@
                 }
               }
             }
-          }
+          ]
         },
         "subCommands": []
-      }
-    },
-    {
-      "actionId": "8663e033-b65c-6573-5d28-6d0f940b165a",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "MoveAsset",
-        "data": {
-          "input": {
-            "guid": "694eded8-80ad-7f7d-a27f-c33533f88222",
-            "folder": "/Users/toneyalexander/projects/ColorPickerEffect/Assets/Materials"
-          }
-        },
-        "subCommands": []
-      }
-    },
-    {
-      "actionId": "2a4d75ac-53d3-b77b-cb92-c627e2dbb401",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "c4f48514-77ea-0bf4-3b93-1bc94fd86334",
-            "properties": [
-              {
-                "property": "sharedMaterial",
-                "value": {
-                  "type": "Material",
-                  "data": {
-                    "guid": "694eded8-80ad-7f7d-a27f-c33533f88222"
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "Image",
-            "guid": "c4f48514-77ea-0bf4-3b93-1bc94fd86334",
-            "changes": [
-              {
-                "property": "sharedMaterial",
-                "oldValue": {
-                  "guid": "00000000-0000-0000-0000-000000000132"
-                },
-                "newValue": {
-                  "guid": "694eded8-80ad-7f7d-a27f-c33533f88222"
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "2aa2fe0a-32fa-35f5-61ef-26f59427b6ec",
-            "source": "commands.data.output.changes[0].newValue.guid",
-            "target": "commands.data.input.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "1ee912a9-306f-d031-b4a7-5cc0b4222124",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
-            "properties": [
-              {
-                "property": "offsets",
-                "value": {
-                  "type": "Vector4f",
-                  "data": {
-                    "x": 140,
-                    "y": 620,
-                    "z": 760,
-                    "w": 1240
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "ScreenTransform",
-            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
-            "changes": [
-              {
-                "property": "offsets",
-                "oldValue": {
-                  "x": 40,
-                  "y": 520,
-                  "z": 760,
-                  "w": 1240
-                },
-                "newValue": {
-                  "x": 140,
-                  "y": 620,
-                  "z": 760,
-                  "w": 1240
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "b227c665-0e29-45d9-b120-bafb8d50a9fc",
-            "source": "commands.data.output.changes[0].newValue.guid",
-            "target": "commands.data.input.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "1ee912a9-306f-d031-b4a7-5cc0b4222124",
-      "actionType": "undo",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
-            "properties": [
-              {
-                "property": "anchoredPosition",
-                "value": {
-                  "type": "Vector2f",
-                  "data": {
-                    "x": 40,
-                    "y": 760
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "ScreenTransform",
-            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
-            "changes": [
-              {
-                "property": "anchoredPosition",
-                "oldValue": {
-                  "x": 140,
-                  "y": 760
-                },
-                "newValue": {
-                  "x": 40,
-                  "y": 760
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      }
-    },
-    {
-      "actionId": "5e437956-7584-1f60-abee-46268811b03f",
-      "actionType": "undo",
-      "source": "API",
-      "commands": {
-        "name": "AddComponent",
-        "data": {
-          "input": {
-            "sceneObject": "8b560c80-21ac-f196-740b-90e3ed146fb3",
-            "type": "Transform"
-          },
-          "output": {
-            "type": {
-              "type": "String",
-              "data": "Transform",
-              "readonly": true
-            },
-            "guid": {
-              "type": "Guid",
-              "data": "69ab2df1-5bd0-3c4b-caf5-e811fb699a93",
-              "readonly": true
-            },
-            "name": {
-              "type": "String",
-              "data": "Transform",
-              "readonly": true
-            },
-            "version": {
-              "type": "Version",
-              "data": "0.1.0",
-              "readonly": true
-            },
-            "enabled": {
-              "type": "Boolean",
-              "data": true
-            },
-            "localPosition": {
-              "type": "Vector3f",
-              "data": {
-                "x": -30,
-                "y": 20,
-                "z": -20
-              }
-            },
-            "localScale": {
-              "type": "Vector3f",
-              "data": {
-                "x": 1,
-                "y": 1,
-                "z": 1
-              }
-            },
-            "eulerAngle": {
-              "type": "Vector3f",
-              "data": {
-                "x": 338,
-                "y": 0,
-                "z": 0
-              }
-            }
-          }
-        },
-        "subCommands": [
-          {
-            "name": "SetComponent",
-            "data": {
-              "input": {
-                "guid": "69ab2df1-5bd0-3c4b-caf5-e811fb699a93",
-                "properties": [
-                  {
-                    "property": "guid",
-                    "value": {
-                      "type": "Guid",
-                      "data": "69ab2df1-5bd0-3c4b-caf5-e811fb699a93",
-                      "readonly": true
-                    }
-                  }
-                ]
-              }
-            },
-            "subCommands": []
-          },
-          {
-            "name": "SetComponent",
-            "data": {
-              "input": {
-                "guid": "69ab2df1-5bd0-3c4b-caf5-e811fb699a93",
-                "properties": [
-                  {
-                    "property": "version",
-                    "value": {
-                      "type": "Version",
-                      "data": "0.1.0",
-                      "readonly": true
-                    }
-                  }
-                ]
-              }
-            },
-            "subCommands": []
-          },
-          {
-            "name": "SetComponent",
-            "data": {
-              "input": {
-                "guid": "69ab2df1-5bd0-3c4b-caf5-e811fb699a93",
-                "properties": []
-              }
-            },
-            "subCommands": []
-          },
-          {
-            "name": "SetComponent",
-            "data": {
-              "input": {
-                "guid": "69ab2df1-5bd0-3c4b-caf5-e811fb699a93",
-                "properties": []
-              }
-            },
-            "subCommands": []
-          },
-          {
-            "name": "SetComponent",
-            "data": {
-              "input": {
-                "guid": "69ab2df1-5bd0-3c4b-caf5-e811fb699a93",
-                "properties": [
-                  {
-                    "property": "eulerAngle",
-                    "value": {
-                      "type": "Vector3f",
-                      "data": {
-                        "x": 338,
-                        "y": 0,
-                        "z": 0
-                      }
-                    }
-                  }
-                ]
-              }
-            },
-            "subCommands": []
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "5e437956-7584-1f60-abee-46268811b03f",
-      "actionType": "undo",
-      "source": "API",
-      "commands": {
-        "name": "AddComponent",
-        "data": {
-          "input": {
-            "sceneObject": "8b560c80-21ac-f196-740b-90e3ed146fb3",
-            "type": "DirectionalLight"
-          },
-          "output": {
-            "type": {
-              "type": "String",
-              "data": "DirectionalLight",
-              "readonly": true
-            },
-            "guid": {
-              "type": "Guid",
-              "data": "c231a065-d921-421b-c55d-9d0bff5821e9",
-              "readonly": true
-            },
-            "name": {
-              "type": "String",
-              "data": "Directional Light",
-              "readonly": true
-            },
-            "version": {
-              "type": "Version",
-              "data": "0.1.0",
-              "readonly": true
-            },
-            "enabled": {
-              "type": "Boolean",
-              "data": true
-            },
-            "intensity": {
-              "type": "Number",
-              "data": 1
-            },
-            "color": {
-              "type": "Color",
-              "data": {
-                "r": 1,
-                "g": 1,
-                "b": 1,
-                "a": 1
-              }
-            },
-            "castShadow": {
-              "type": "Boolean",
-              "data": false
-            },
-            "shadowResolution": {
-              "type": "Vector2f",
-              "data": {
-                "x": 256,
-                "y": 256
-              }
-            },
-            "shadowStrength": {
-              "type": "Number",
-              "data": 1
-            },
-            "shadowBias": {
-              "type": "Number",
-              "data": 0
-            },
-            "shadowColor": {
-              "type": "Color",
-              "data": {
-                "r": 0,
-                "g": 0,
-                "b": 0,
-                "a": 1
-              }
-            },
-            "selfShadowGradient": {
-              "type": "Number",
-              "data": 0
-            },
-            "softShadow": {
-              "type": "Boolean",
-              "data": false
-            },
-            "shadowSoftness": {
-              "type": "Number",
-              "data": 1
-            },
-            "shadowAutoFrustum": {
-              "type": "Boolean",
-              "data": true
-            },
-            "shadowFrustumArea": {
-              "type": "Number",
-              "data": 100
-            },
-            "shadowFrustumNear": {
-              "type": "Number",
-              "data": 1
-            },
-            "shadowFrustumFar": {
-              "type": "Number",
-              "data": 100
-            },
-            "renderLayer": {
-              "type": "LayerSet",
-              "data": {
-                "hexadecimal": 1
-              }
-            }
-          }
-        },
-        "subCommands": [
-          {
-            "name": "SetComponent",
-            "data": {
-              "input": {
-                "guid": "c231a065-d921-421b-c55d-9d0bff5821e9",
-                "properties": [
-                  {
-                    "property": "guid",
-                    "value": {
-                      "type": "Guid",
-                      "data": "c231a065-d921-421b-c55d-9d0bff5821e9",
-                      "readonly": true
-                    }
-                  }
-                ]
-              }
-            },
-            "subCommands": []
-          },
-          {
-            "name": "SetComponent",
-            "data": {
-              "input": {
-                "guid": "c231a065-d921-421b-c55d-9d0bff5821e9",
-                "properties": [
-                  {
-                    "property": "version",
-                    "value": {
-                      "type": "Version",
-                      "data": "0.1.0",
-                      "readonly": true
-                    }
-                  }
-                ]
-              }
-            },
-            "subCommands": []
-          },
-          {
-            "name": "SetComponent",
-            "data": {
-              "input": {
-                "guid": "c231a065-d921-421b-c55d-9d0bff5821e9",
-                "properties": []
-              }
-            },
-            "subCommands": []
-          },
-          {
-            "name": "SetComponent",
-            "data": {
-              "input": {
-                "guid": "c231a065-d921-421b-c55d-9d0bff5821e9",
-                "properties": []
-              }
-            },
-            "subCommands": []
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "5e437956-7584-1f60-abee-46268811b03f",
-      "actionType": "undo",
-      "source": "API",
-      "commands": {
-        "name": "SetSceneObject",
-        "data": {
-          "input": {
-            "guid": "8b560c80-21ac-f196-740b-90e3ed146fb3",
-            "properties": [
-              {
-                "property": "guid",
-                "value": {
-                  "type": "Guid",
-                  "data": "d8f2317b-2b42-3107-58c9-00e801ee21a1"
-                }
-              }
-            ]
-          },
-          "output": {
-            "guid": "8b560c80-21ac-f196-740b-90e3ed146fb3",
-            "changes": [
-              {
-                "property": "guid",
-                "oldValue": "8b560c80-21ac-f196-740b-90e3ed146fb3",
-                "newValue": "d8f2317b-2b42-3107-58c9-00e801ee21a1"
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      }
-    },
-    {
-      "actionId": "5e437956-7584-1f60-abee-46268811b03f",
-      "actionType": "undo",
-      "source": "API",
-      "commands": {
-        "name": "SetSceneObject",
-        "data": {
-          "input": {
-            "guid": "d8f2317b-2b42-3107-58c9-00e801ee21a1",
-            "properties": [
-              {
-                "property": "version",
-                "value": {
-                  "type": "Version",
-                  "data": "0.1.0"
-                }
-              }
-            ]
-          },
-          "output": {
-            "guid": "d8f2317b-2b42-3107-58c9-00e801ee21a1",
-            "changes": [
-              {
-                "property": "version",
-                "oldValue": "0.1.0",
-                "newValue": "0.1.0"
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      }
-    },
-    {
-      "actionId": "5e437956-7584-1f60-abee-46268811b03f",
-      "actionType": "undo",
-      "source": "API",
-      "commands": {
-        "name": "SetSceneObject",
-        "data": {
-          "input": {
-            "guid": "d8f2317b-2b42-3107-58c9-00e801ee21a1",
-            "properties": [
-              {
-                "property": "createdEffectNodeKey",
-                "value": {
-                  "type": "String",
-                  "data": "effect_node_utility"
-                }
-              }
-            ]
-          },
-          "output": {
-            "guid": "d8f2317b-2b42-3107-58c9-00e801ee21a1",
-            "changes": [
-              {
-                "property": "createdEffectNodeKey",
-                "oldValue": "",
-                "newValue": "effect_node_utility"
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      }
-    },
-    {
-      "actionId": "5e437956-7584-1f60-abee-46268811b03f",
-      "actionType": "undo",
-      "source": "API",
-      "commands": {
-        "name": "MoveSceneObject",
-        "data": {
-          "input": {
-            "guid": "d8f2317b-2b42-3107-58c9-00e801ee21a1",
-            "parent": "602a125f-adef-400a-1092-0fec2f5a3f83",
-            "aboveSceneObject": "2bc89bee-163e-1e67-262e-d67c4d1ae052"
-          }
-        },
-        "subCommands": []
-      }
-    },
-    {
-      "actionId": "28024520-62c1-e9fc-d579-395825b0f493",
-      "actionType": "undo",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
-            "properties": [
-              {
-                "property": "verticalConstraint",
-                "value": {
-                  "type": "Enum",
-                  "data": "BOTTOM_AND_FIXED",
-                  "options": [
-                    "STRETCH",
-                    "FIXED",
-                    "BOTTOM",
-                    "TOP",
-                    "BOTTOM_AND_FIXED",
-                    "TOP_AND_FIXED",
-                    "BOTTOM_AND_TOP",
-                    "INVALID"
-                  ]
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "ScreenTransform",
-            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
-            "changes": [
-              {
-                "property": "verticalConstraint",
-                "oldValue": "FIXED",
-                "newValue": "BOTTOM_AND_FIXED"
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "1ee912a9-306f-d031-b4a7-5cc0b4222124",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "3d48c39d-6d29-b085-2859-a185c039cab7",
-      "actionType": "undo",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
-            "properties": [
-              {
-                "property": "horizontalConstraint",
-                "value": {
-                  "type": "Enum",
-                  "data": "LEFT_AND_FIXED",
-                  "options": [
-                    "STRETCH",
-                    "FIXED",
-                    "LEFT",
-                    "RIGHT",
-                    "LEFT_AND_FIXED",
-                    "RIGHT_AND_FIXED",
-                    "LEFT_AND_RIGHT",
-                    "INVALID"
-                  ]
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "ScreenTransform",
-            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
-            "changes": [
-              {
-                "property": "horizontalConstraint",
-                "oldValue": "FIXED",
-                "newValue": "LEFT_AND_FIXED"
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "28024520-62c1-e9fc-d579-395825b0f493",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "f3b29ab1-1212-8805-a243-80dab98a58b6",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
-            "properties": [
-              {
-                "property": "horizontalConstraint",
-                "value": {
-                  "type": "Enum",
-                  "data": "FIXED",
-                  "options": [
-                    "STRETCH",
-                    "FIXED",
-                    "LEFT",
-                    "RIGHT",
-                    "LEFT_AND_FIXED",
-                    "RIGHT_AND_FIXED",
-                    "LEFT_AND_RIGHT",
-                    "INVALID"
-                  ]
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "ScreenTransform",
-            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
-            "changes": [
-              {
-                "property": "horizontalConstraint",
-                "oldValue": "LEFT_AND_FIXED",
-                "newValue": "FIXED"
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "3d48c39d-6d29-b085-2859-a185c039cab7",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "f3b29ab1-1212-8805-a243-80dab98a58b6",
-      "actionType": "undo",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
-            "properties": [
-              {
-                "property": "horizontalConstraint",
-                "value": {
-                  "type": "Enum",
-                  "data": "LEFT_AND_FIXED",
-                  "options": [
-                    "STRETCH",
-                    "FIXED",
-                    "LEFT",
-                    "RIGHT",
-                    "LEFT_AND_FIXED",
-                    "RIGHT_AND_FIXED",
-                    "LEFT_AND_RIGHT",
-                    "INVALID"
-                  ]
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "ScreenTransform",
-            "guid": "3085abf7-c95d-08dd-996d-9bb1fdcc1188",
-            "changes": [
-              {
-                "property": "horizontalConstraint",
-                "oldValue": "FIXED",
-                "newValue": "LEFT_AND_FIXED"
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      }
-    },
-    {
-      "actionId": "91e58c48-d02e-3964-127e-247bd3a7683b",
-      "actionType": "undo",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
-            "properties": [
-              {
-                "property": "verticalConstraint",
-                "value": {
-                  "type": "Enum",
-                  "data": "FIXED",
-                  "options": [
-                    "STRETCH",
-                    "FIXED",
-                    "BOTTOM",
-                    "TOP",
-                    "BOTTOM_AND_FIXED",
-                    "TOP_AND_FIXED",
-                    "BOTTOM_AND_TOP",
-                    "INVALID"
-                  ]
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "ScreenTransform",
-            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
-            "changes": [
-              {
-                "property": "verticalConstraint",
-                "oldValue": "TOP_AND_FIXED",
-                "newValue": "FIXED"
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "b4588bb1-be5e-686f-2bec-c6d4c30ec202",
-            "source": "commands.data.output.changes[0].newValue.guid",
-            "target": "commands.data.input.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "76bc30af-78d6-827e-e212-f61d3aced758",
-      "actionType": "undo",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
-            "properties": [
-              {
-                "property": "verticalConstraint",
-                "value": {
-                  "type": "Enum",
-                  "data": "TOP_AND_FIXED",
-                  "options": [
-                    "STRETCH",
-                    "FIXED",
-                    "BOTTOM",
-                    "TOP",
-                    "BOTTOM_AND_FIXED",
-                    "TOP_AND_FIXED",
-                    "BOTTOM_AND_TOP",
-                    "INVALID"
-                  ]
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "ScreenTransform",
-            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
-            "changes": [
-              {
-                "property": "verticalConstraint",
-                "oldValue": "FIXED",
-                "newValue": "TOP_AND_FIXED"
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "91e58c48-d02e-3964-127e-247bd3a7683b",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "782af582-c49e-72c5-523b-937fd055d2f9",
-      "actionType": "undo",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
-            "properties": [
-              {
-                "property": "horizontalConstraint",
-                "value": {
-                  "type": "Enum",
-                  "data": "RIGHT_AND_FIXED",
-                  "options": [
-                    "STRETCH",
-                    "FIXED",
-                    "LEFT",
-                    "RIGHT",
-                    "LEFT_AND_FIXED",
-                    "RIGHT_AND_FIXED",
-                    "LEFT_AND_RIGHT",
-                    "INVALID"
-                  ]
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "ScreenTransform",
-            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
-            "changes": [
-              {
-                "property": "horizontalConstraint",
-                "oldValue": "FIXED",
-                "newValue": "RIGHT_AND_FIXED"
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "76bc30af-78d6-827e-e212-f61d3aced758",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "407e301e-cbe6-5449-335d-3b3eae3219ee",
-      "actionType": "undo",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
-            "properties": [
-              {
-                "property": "verticalConstraint",
-                "value": {
-                  "type": "Enum",
-                  "data": "BOTTOM_AND_FIXED",
-                  "options": [
-                    "STRETCH",
-                    "FIXED",
-                    "BOTTOM",
-                    "TOP",
-                    "BOTTOM_AND_FIXED",
-                    "TOP_AND_FIXED",
-                    "BOTTOM_AND_TOP",
-                    "INVALID"
-                  ]
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "ScreenTransform",
-            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
-            "changes": [
-              {
-                "property": "verticalConstraint",
-                "oldValue": "TOP_AND_FIXED",
-                "newValue": "BOTTOM_AND_FIXED"
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "782af582-c49e-72c5-523b-937fd055d2f9",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "1127ba77-7fe3-fd2f-dc15-a49827328133",
-      "actionType": "undo",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
-            "properties": [
-              {
-                "property": "anchoredPosition",
-                "value": {
-                  "type": "Vector2f",
-                  "data": {
-                    "x": -160,
-                    "y": 760
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "ScreenTransform",
-            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
-            "changes": [
-              {
-                "property": "anchoredPosition",
-                "oldValue": {
-                  "x": -160,
-                  "y": 1240
-                },
-                "newValue": {
-                  "x": -160,
-                  "y": 760
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "407e301e-cbe6-5449-335d-3b3eae3219ee",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "1127ba77-7fe3-fd2f-dc15-a49827328133",
-      "actionType": "undo",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
-            "properties": [
-              {
-                "property": "pivot",
-                "value": {
-                  "type": "Vector2f",
-                  "data": {
-                    "x": 0,
-                    "y": 0
-                  }
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "ScreenTransform",
-            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
-            "changes": [
-              {
-                "property": "pivot",
-                "oldValue": {
-                  "x": 0,
-                  "y": 1
-                },
-                "newValue": {
-                  "x": 0,
-                  "y": 0
-                }
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      }
-    },
-    {
-      "actionId": "7ae1d777-7c1d-5ef8-4f3f-f078bfae2246",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
-            "properties": [
-              {
-                "property": "verticalConstraint",
-                "value": {
-                  "type": "Enum",
-                  "data": "TOP_AND_FIXED",
-                  "options": [
-                    "STRETCH",
-                    "FIXED",
-                    "BOTTOM",
-                    "TOP",
-                    "BOTTOM_AND_FIXED",
-                    "TOP_AND_FIXED",
-                    "BOTTOM_AND_TOP",
-                    "INVALID"
-                  ]
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "ScreenTransform",
-            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
-            "changes": [
-              {
-                "property": "verticalConstraint",
-                "oldValue": "BOTTOM_AND_FIXED",
-                "newValue": "TOP_AND_FIXED"
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "1127ba77-7fe3-fd2f-dc15-a49827328133",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "e094fa05-8165-bddc-0439-3d9422037b6a",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
-            "properties": [
-              {
-                "property": "verticalConstraint",
-                "value": {
-                  "type": "Enum",
-                  "data": "FIXED",
-                  "options": [
-                    "STRETCH",
-                    "FIXED",
-                    "BOTTOM",
-                    "TOP",
-                    "BOTTOM_AND_FIXED",
-                    "TOP_AND_FIXED",
-                    "BOTTOM_AND_TOP",
-                    "INVALID"
-                  ]
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "ScreenTransform",
-            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
-            "changes": [
-              {
-                "property": "verticalConstraint",
-                "oldValue": "TOP_AND_FIXED",
-                "newValue": "FIXED"
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "7ae1d777-7c1d-5ef8-4f3f-f078bfae2246",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          }
-        ]
-      }
-    },
-    {
-      "actionId": "cf9c90e5-7336-a7cc-0a33-f17d4432d867",
-      "actionType": "do",
-      "source": "API",
-      "commands": {
-        "name": "SetComponent",
-        "data": {
-          "input": {
-            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
-            "properties": [
-              {
-                "property": "verticalConstraint",
-                "value": {
-                  "type": "Enum",
-                  "data": "TOP_AND_FIXED",
-                  "options": [
-                    "STRETCH",
-                    "FIXED",
-                    "BOTTOM",
-                    "TOP",
-                    "BOTTOM_AND_FIXED",
-                    "TOP_AND_FIXED",
-                    "BOTTOM_AND_TOP",
-                    "INVALID"
-                  ]
-                }
-              }
-            ]
-          },
-          "output": {
-            "componentType": "ScreenTransform",
-            "guid": "467aab0c-9789-b085-7bfd-6b6c54c47719",
-            "changes": [
-              {
-                "property": "verticalConstraint",
-                "oldValue": "FIXED",
-                "newValue": "TOP_AND_FIXED"
-              }
-            ]
-          }
-        },
-        "subCommands": []
-      },
-      "context": {
-        "dependencies": [
-          {
-            "type": "guid",
-            "sourceId": "e094fa05-8165-bddc-0439-3d9422037b6a",
-            "source": "commands.data.output.guid",
-            "target": "commands.data.input.guid"
-          }
-        ]
       }
     },
     {
@@ -6831,11 +4279,39 @@
       "actionType": "do",
       "source": "API",
       "commands": {
-        "name": "MoveAsset",
+        "name": "DeleteAsset",
         "data": {
           "input": {
-            "guid": "621b20d8-24aa-c2c9-78af-23ad5a9e8fe2",
-            "folder": "/Users/toneyalexander/projects/ColorPickerEffect/Assets/Materials"
+            "guid": "e6489f02-7c34-30a8-6c3b-e6a3d4e9bc02"
+          },
+          "output": {
+            "deletedAssetInfo": {
+              "guid": {
+                "type": "Guid",
+                "data": "e6489f02-7c34-30a8-6c3b-e6a3d4e9bc02",
+                "readonly": true
+              },
+              "name": {
+                "type": "String",
+                "data": "tuv-rgb"
+              },
+              "type": {
+                "type": "String",
+                "data": "kMGSubgraph",
+                "readonly": true
+              },
+              "filePath": {
+                "type": "String",
+                "data": "/Users/toneyalexander/projects/ColorPickerEffect/Assets/Materials/tuv-rgb.msubgraph",
+                "readonly": true
+              },
+              "version": {
+                "type": "Version",
+                "data": "0.1.0",
+                "readonly": true
+              },
+              "subAssets": []
+            }
           }
         },
         "subCommands": []

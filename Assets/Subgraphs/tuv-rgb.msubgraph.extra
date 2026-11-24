@@ -1,0 +1,19 @@
+[
+  {
+    "guid": {
+      "a": "716c2f75-d597-8b94-d119-5d00104bcebd",
+      "b": ""
+    },
+    "extraType": "ResItemMGSubgraph",
+    "name": "tuv-rgb",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "references": []
+  }
+]

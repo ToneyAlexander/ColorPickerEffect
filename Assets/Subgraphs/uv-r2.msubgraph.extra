@@ -1,0 +1,19 @@
+[
+  {
+    "guid": {
+      "a": "b89dcb41-f936-9c77-8a1d-b526ec2a98c3",
+      "b": ""
+    },
+    "extraType": "ResItemMGSubgraph",
+    "name": "uv-r2",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "objGuid": "",
+    "references": []
+  }
+]

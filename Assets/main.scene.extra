@@ -246,6 +246,24 @@
   },
   {
     "guid": {
+      "a": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
+      "b": ""
+    },
+    "objGuid": "Guid(10611619851041903916, 2489712938002399412)",
+    "extraType": "UserComponentEditor",
+    "name": "PickerScriptComponent",
+    "version": "0.1.0",
+    "rttiType": "PickerScriptComponent",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "resGuid": "d35db5d1-aed0-7701-15e8-954aec439603"
+  },
+  {
+    "guid": {
       "a": "1257a908-67b6-59fd-efcb-765c96a08557",
       "b": ""
     },
@@ -255,7 +273,7 @@
     "version": "0.1.0",
     "rttiType": "PickerScriptComponent",
     "editable": true,
-    "_lazyUpgrateVersion": "0.0.0",
+    "_lazyUpgrateVersion": "0.1.0",
     "extendedInfo": {
       "isVisibleInInspector": true,
       "expanded": true
@@ -944,20 +962,70 @@
   },
   {
     "guid": {
-      "a": "ce0364fe-6f48-3fb3-ab74-17f23593841a",
+      "a": "04d7ef26-3db5-0a7a-a7fb-c198ffd0b072",
       "b": ""
     },
-    "objGuid": "Guid(10611619851041903916, 2489712938002399412)",
-    "extraType": "UserComponentEditor",
-    "name": "PickerScriptComponent",
+    "objGuid": "Guid(3335673902637103169, 1209416306831756983)",
+    "extraType": "Entity",
+    "name": "Text",
     "version": "0.1.0",
-    "rttiType": "PickerScriptComponent",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": []
+  },
+  {
+    "guid": {
+      "a": "41201173-182b-e7e1-6b4f-d193ec4479bc",
+      "b": ""
+    },
+    "objGuid": "Guid(9532634474741139510, 12354319439921502111)",
+    "extraType": "ScreenTransform",
+    "name": "Screen Transform",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
     "editable": true,
     "_lazyUpgrateVersion": "0.1.0",
     "extendedInfo": {
       "isVisibleInInspector": true,
       "expanded": true
     },
-    "resGuid": "d35db5d1-aed0-7701-15e8-954aec439603"
+    "horizontalConstraint": 6,
+    "verticalConstraint": 3,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "f7bbd68b-6ef9-f94e-49a7-6128b46a5c6e",
+      "b": ""
+    },
+    "objGuid": "Guid(12413020366418017625, 4332620712681352864)",
+    "extraType": "Text2D",
+    "name": "Text",
+    "version": "1.2.0",
+    "rttiType": "Text",
+    "editable": true,
+    "_lazyUpgrateVersion": "1.2.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "artTextNameDropdown": "00000000-0000-0000-0000-000000008000",
+    "totalAnimationTime": 0,
+    "inAnimationAssetID": "",
+    "loopAnimationAssetID": "",
+    "outAnimationAssetID": "",
+    "inAnimationDuration": 1,
+    "loopAnimationDuration": 1,
+    "outAnimationDuration": 1,
+    "userEditable": false,
+    "maxInputWords": 0,
+    "templateId": ""
   }
 ]
