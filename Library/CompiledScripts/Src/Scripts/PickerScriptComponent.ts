@@ -44,7 +44,7 @@ export class PickerScriptComponent extends APJS.BasicScriptComponent {
   private V_NAME = "_Custom_Float";
 
   private SQUARE_R2 = "_Custom_Float_5";
-  private SLIDER_R2 = "_Custom_Float_5";
+  private SLIDER_R2 = "_Custom_Float_6";
 
   private init: boolean = true;
 
@@ -72,8 +72,8 @@ export class PickerScriptComponent extends APJS.BasicScriptComponent {
       this.sliderImage.materials[0].setFloat(this.U_NAME, this.xyz_tuv(this.y));
       this.squareImage.materials[0].setFloat(this.V_NAME, this.xyz_tuv(this.z));
 
-      this.sliderImage.materials[0].setFloat(this.SQUARE_R2, this.r2);
-      this.squareImage.materials[0].setFloat(this.SLIDER_R2, this.r2);
+      this.squareImage.materials[0].setFloat(this.SQUARE_R2, this.r2);
+      this.sliderImage.materials[0].setFloat(this.SLIDER_R2, this.r2);
     }
 
   }

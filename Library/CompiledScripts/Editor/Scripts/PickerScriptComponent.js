@@ -35,7 +35,7 @@ let PickerScriptComponent = class PickerScriptComponent extends APJS.BasicScript
         this.U_NAME = "_Custom_Float_3";
         this.V_NAME = "_Custom_Float";
         this.SQUARE_R2 = "_Custom_Float_5";
-        this.SLIDER_R2 = "_Custom_Float_5";
+        this.SLIDER_R2 = "_Custom_Float_6";
         this.init = true;
         this.r2 = 2;
         this.touchCb = (event) => {
@@ -77,8 +77,8 @@ let PickerScriptComponent = class PickerScriptComponent extends APJS.BasicScript
             this.sliderImage.materials[0].setFloat(this.T_NAME, this.xyz_tuv(this.x));
             this.sliderImage.materials[0].setFloat(this.U_NAME, this.xyz_tuv(this.y));
             this.squareImage.materials[0].setFloat(this.V_NAME, this.xyz_tuv(this.z));
-            this.sliderImage.materials[0].setFloat(this.SQUARE_R2, this.r2);
-            this.squareImage.materials[0].setFloat(this.SLIDER_R2, this.r2);
+            this.squareImage.materials[0].setFloat(this.SQUARE_R2, this.r2);
+            this.sliderImage.materials[0].setFloat(this.SLIDER_R2, this.r2);
         }
     }
     getScreenPosition(normalizedPos) {
